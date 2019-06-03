@@ -1,0 +1,33 @@
+uuid: 12316036-c717-46fa-a8a6-8e5bd25396f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_container
+    - paragraphs.paragraphs_type.paragraph
+    - taxonomy.vocabulary.container_options
+  content:
+    - 'taxonomy_term:container_options:346b47e0-8158-4f75-a243-283f8c3d84a8'
+id: paragraph.paragraph.field_container
+field_name: field_container
+entity_type: paragraph
+bundle: paragraph
+label: Container
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 346b47e0-8158-4f75-a243-283f8c3d84a8
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      container_options: container_options
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

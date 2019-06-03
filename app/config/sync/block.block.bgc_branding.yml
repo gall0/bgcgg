@@ -1,0 +1,25 @@
+uuid: b47df4be-500e-445b-a1ff-7e4ed6a0ae8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bgc
+_core:
+  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+id: bgc_branding
+theme: bgc
+region: primary_menu
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

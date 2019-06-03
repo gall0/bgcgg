@@ -1,0 +1,8 @@
+uuid: 33a299e7-4ed5-4328-a8df-1af33da4f90e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Text Color'
+vid: text_color
+description: ''
+weight: 0

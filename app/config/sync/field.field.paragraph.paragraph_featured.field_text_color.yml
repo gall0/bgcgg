@@ -1,0 +1,33 @@
+uuid: 8f863f89-93f4-421a-9de6-4c9b7c7e0813
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_color
+    - paragraphs.paragraphs_type.paragraph_featured
+    - taxonomy.vocabulary.text_color
+  content:
+    - 'taxonomy_term:text_color:47580131-297f-4400-b475-5172c55a207f'
+id: paragraph.paragraph_featured.field_text_color
+field_name: field_text_color
+entity_type: paragraph
+bundle: paragraph_featured
+label: 'Text Color'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    target_uuid: 47580131-297f-4400-b475-5172c55a207f
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      text_color: text_color
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

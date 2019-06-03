@@ -1,0 +1,36 @@
+uuid: 1ed923f2-5a34-4757-a39a-6c53da4cb030
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.link_list.field_background_color
+    - field.field.paragraph.link_list.field_link_list_item
+    - paragraphs.paragraphs_type.link_list
+  module:
+    - paragraphs
+id: paragraph.link_list.default
+targetEntityType: paragraph
+bundle: link_list
+mode: default
+content:
+  field_background_color:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_link_list_item:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

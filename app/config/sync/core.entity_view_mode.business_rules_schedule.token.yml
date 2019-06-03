@@ -1,0 +1,10 @@
+uuid: 58fe7f5b-b34b-40ed-b128-e3b89a670bd7
+langcode: en
+status: true
+dependencies:
+  module:
+    - business_rules
+id: business_rules_schedule.token
+label: Token
+targetEntityType: business_rules_schedule
+cache: true

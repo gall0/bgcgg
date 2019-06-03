@@ -1,0 +1,23 @@
+uuid: dfc1c6e7-a024-4ba0-a2c5-487bdaadfd5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: landscape_xl
+label: 'Landscape - 3 - xl (2100×1500)'
+effects:
+  5a62bfca-db63-4234-bfcd-f7b07df71bf4:
+    uuid: 5a62bfca-db63-4234-bfcd-f7b07df71bf4
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 2100
+      height: 1500
+      anchor: center-center
+  5d588f2b-5e0f-4045-91d5-a8de413c1ff2:
+    uuid: 5d588f2b-5e0f-4045-91d5-a8de413c1ff2
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

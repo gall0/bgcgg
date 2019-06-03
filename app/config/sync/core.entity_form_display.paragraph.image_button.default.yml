@@ -1,0 +1,43 @@
+uuid: 5a47fd96-3cad-4dc3-beac-ad0850dbc1cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_button.field_background_color
+    - field.field.paragraph.image_button.field_button_image
+    - field.field.paragraph.image_button.field_button_link
+    - image.style.scale_sm
+    - paragraphs.paragraphs_type.image_button
+  module:
+    - image
+    - link
+id: paragraph.image_button.default
+targetEntityType: paragraph
+bundle: image_button
+mode: default
+content:
+  field_background_color:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_button_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: scale_sm
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_button_link:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,6 @@
+.env
+*.swp
+*.bak
+*.temp
+files/
+app/web/sites/development.services.yml

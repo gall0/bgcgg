@@ -1,0 +1,22 @@
+uuid: f3b579b5-61ba-4bfe-99e4-81bab5ccbbeb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.bac.field_classes
+    - taxonomy.vocabulary.bac
+id: taxonomy_term.bac.default
+targetEntityType: taxonomy_term
+bundle: bac
+mode: default
+content:
+  field_classes:
+    weight: -4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  description: true

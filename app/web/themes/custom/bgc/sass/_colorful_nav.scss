@@ -1,0 +1,61 @@
+// Logo
+.navbar-brand {
+    padding: 0em;
+    align-self: center;
+    margin: 1em 2em;
+    width: 12em;
+}
+
+.menu--main {
+    width:100%;
+    align-self: center;
+}
+
+// This is used for hover dropdown.
+
+//  ul.nav li.dropdown:hover > ul.dropdown-menu {
+//     display: block;
+// }
+
+.colorful-nav {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    li {       
+        flex: 1 1 auto;
+        text-align: center;
+     
+        a{
+            padding: .5em!important;
+            display: block;
+            text-align: center;
+            width: 100%;
+    }
+    }
+
+    a:hover {
+        background: rgba(0,0,0, 0.2);
+    }
+
+    .about-us{
+        background-color: var(--blue);
+    }
+
+    .community-impact-programs {
+        background-color: var(--pink);
+    }
+
+    .youth-programs {
+        background-color: var(--deep-purple);
+    }
+
+    .news-and-events {
+        background-color: var(--deep-orange);
+    }
+
+    .donations {
+        background-color: var(--green);
+    }
+
+}
+

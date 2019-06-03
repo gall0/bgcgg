@@ -1,0 +1,19 @@
+uuid: 53f87d7e-8c99-46bd-a7c2-a08ea4d139ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.club
+id: node.club.field_address
+field_name: field_address
+entity_type: node
+bundle: club
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

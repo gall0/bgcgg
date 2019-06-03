@@ -1,0 +1,19 @@
+.block-views-blocknews-publications-recent-news-block {
+    margin: 5em 5%;
+}
+
+.news-thumbnail {
+    border-radius: 50% !important;
+    border: .1em solid white;
+
+}
+
+.news-title {
+    a {
+        color: var(--blue);
+    }
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}

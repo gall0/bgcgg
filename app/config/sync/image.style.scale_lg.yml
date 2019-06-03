@@ -1,0 +1,25 @@
+uuid: 77415b9a-1098-4f38-bb3c-26c5505ff40b
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+_core:
+  default_config_hash: J2n0RpFzS0-bgSyxjs6rSdgxB1rb-bTAgqywNx_964M
+name: scale_lg
+label: 'Scale - 2 - lg (1400)'
+effects:
+  ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d:
+    uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d
+    id: image_scale
+    weight: -9
+    data:
+      width: 1400
+      height: 1400
+      upscale: false
+  18198ccd-4000-455e-93fb-51447596a2fc:
+    uuid: 18198ccd-4000-455e-93fb-51447596a2fc
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

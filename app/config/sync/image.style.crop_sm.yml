@@ -1,0 +1,23 @@
+uuid: f65bf4b2-9aa0-49d7-a018-5d63a7dc99b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: crop_sm
+label: 'Crop - 0 - sm (350)'
+effects:
+  ee6a3090-b61f-445b-8fe7-433a770165b1:
+    uuid: ee6a3090-b61f-445b-8fe7-433a770165b1
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 350
+      height: 350
+      anchor: center-center
+  9490ce84-bf82-4581-8286-627ecee9ecdc:
+    uuid: 9490ce84-bf82-4581-8286-627ecee9ecdc
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

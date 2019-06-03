@@ -1,0 +1,18 @@
+palette:
+  top: '#0d47a1'
+  bottom: '#cee1ff'
+  bg: '#cee1ff'
+  sidebar: '#f6f6f2'
+  sidebarborders: '#f9f9f9'
+  footer: '#0d47a1'
+  button: '#007bff'
+  buttonhover: '#0256b1'
+  titleslogan: '#fffeff'
+  text: '#3b3b3b'
+  link: '#0071b3'
+logo: 'public://color/bgc-c5fc2281/logo.svg'
+stylesheets:
+  - 'public://color/bgc-c5fc2281/colors.css'
+files:
+  - 'public://color/bgc-c5fc2281/logo.svg'
+  - 'public://color/bgc-c5fc2281/colors.css'

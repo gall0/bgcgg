@@ -1,0 +1,9 @@
+uuid: bb9b5ff6-e13b-4295-b81f-8467eeffdb5f
+langcode: en
+status: true
+dependencies: {  }
+id: link_list_item
+label: 'Link List Item'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

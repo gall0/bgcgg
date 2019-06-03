@@ -1,0 +1,48 @@
+uuid: 7c8ec8f3-6d88-4963-96ba-14cd5dad16b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_button.field_background_color
+    - field.field.paragraph.image_button.field_button_image
+    - field.field.paragraph.image_button.field_button_link
+    - image.style.custom_image_button
+    - paragraphs.paragraphs_type.image_button
+  module:
+    - image
+    - link
+id: paragraph.image_button.default
+targetEntityType: paragraph
+bundle: image_button
+mode: default
+content:
+  field_background_color:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_button_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: custom_image_button
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_button_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

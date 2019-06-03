@@ -1,0 +1,26 @@
+uuid: de4d4555-7122-4f93-a363-e17b574909bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.photo_collection.field_collection_photos
+    - image.style.scale_sm
+    - paragraphs.paragraphs_type.photo_collection
+  module:
+    - image
+id: paragraph.photo_collection.default
+targetEntityType: paragraph
+bundle: photo_collection
+mode: default
+content:
+  field_collection_photos:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: scale_sm
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true

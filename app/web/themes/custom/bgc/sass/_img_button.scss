@@ -1,0 +1,62 @@
+.button-group{
+    border-bottom: .3em solid white;
+}
+
+.img-btn-card{
+    color: white!important;
+    font-size: 1.8em;
+    height: 20vh;
+    overflow: hidden;
+}
+
+@include media-breakpoint-up(md) {
+    .img-btn-card{
+        height: unset;
+    overflow: unset
+    }
+}
+
+.red-alpha {
+    background-color: rgba(183,28,28, .5);
+
+    &:hover {
+        background-color: rgba(183,28,28, .3);
+    }
+}
+
+.blue-alpha {
+    background-color: rgba(13,71,161, .5);
+
+    &:hover {
+        background-color: rgba(13,71,161, .3);
+    }
+}
+
+.green-alpha {
+    background-color: rgba(27,94,32, .5);
+
+    &:hover {
+        background-color: rgba(27,94,32, .3);
+    }
+}
+
+.orange-alpha {
+    background-color: rgba(230,81,0, .5);
+
+    &:hover {
+        background-color: rgba(230,81,0, .3);
+    }
+}
+.title-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .card-title {
+        font-weight:bold;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}

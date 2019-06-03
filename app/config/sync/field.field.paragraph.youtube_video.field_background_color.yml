@@ -1,0 +1,29 @@
+uuid: 5a46c192-832c-4a67-8fdc-d6cf367b5c8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_color
+    - paragraphs.paragraphs_type.youtube_video
+    - taxonomy.vocabulary.bac
+id: paragraph.youtube_video.field_background_color
+field_name: field_background_color
+entity_type: paragraph
+bundle: youtube_video
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bac: bac
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

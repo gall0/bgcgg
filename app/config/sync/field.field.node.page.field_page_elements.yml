@@ -1,0 +1,52 @@
+uuid: c474d263-0dba-43f4-9f8e-643b7d69c516
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_elements
+    - node.type.page
+    - paragraphs.paragraphs_type.image_button
+  module:
+    - entity_reference_revisions
+id: node.page.field_page_elements
+field_name: field_page_elements
+entity_type: node
+bundle: page
+label: 'Page Elements'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      image_button: image_button
+    target_bundles_drag_drop:
+      image_button:
+        enabled: true
+        weight: -27
+      slider:
+        weight: -26
+        enabled: false
+      paragraph:
+        weight: -25
+        enabled: false
+      image_buttons:
+        weight: -24
+        enabled: false
+      block_reference:
+        weight: -22
+        enabled: false
+      photo_collection:
+        weight: 11
+        enabled: false
+      paragraph_featured:
+        weight: 13
+        enabled: false
+      youtube_video:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,9 @@
+uuid: 6aa624e0-072d-4de3-a366-f900035c5f24
+langcode: en
+status: true
+dependencies: {  }
+id: bgc
+label: 'BGC Admin'
+weight: 3
+is_admin: true
+permissions: {  }

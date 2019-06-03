@@ -1,0 +1,38 @@
+uuid: 14383922-b35e-4e58-a84a-58736272a529
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.club.field_address
+    - field.field.node.club.field_attachments
+    - field.field.node.club.field_club_photo
+    - field.field.node.club.field_email
+    - field.field.node.club.field_page_elements
+    - field.field.node.club.field_phone
+    - field.field.node.club.field_sc
+    - node.type.club
+  module:
+    - entity_reference_revisions
+    - user
+id: node.club.default
+targetEntityType: node
+bundle: club
+mode: default
+content:
+  field_page_elements:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  field_address: true
+  field_attachments: true
+  field_club_photo: true
+  field_email: true
+  field_phone: true
+  field_sc: true
+  links: true

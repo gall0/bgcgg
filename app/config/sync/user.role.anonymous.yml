@@ -1,0 +1,13 @@
+uuid: 4e5385e1-d668-4e68-9f32-59c3eaa41ae0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'create status workflow_transition'

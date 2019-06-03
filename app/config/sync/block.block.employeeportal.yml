@@ -1,0 +1,33 @@
+uuid: 178d5d14-9306-4bfd-8d4f-2053429e14a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.employee-portal
+  module:
+    - system
+    - user
+  theme:
+    - bgc
+id: employeeportal
+theme: bgc
+region: secondary_menu
+weight: -3
+provider: null
+plugin: 'system_menu_block:employee-portal'
+settings:
+  id: 'system_menu_block:employee-portal'
+  label: 'Employee Portal'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      bgc_employee: bgc_employee
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

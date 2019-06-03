@@ -1,0 +1,8 @@
+uuid: 8f653121-268e-4c2d-9a70-08e4ca06ac44
+langcode: en
+status: true
+dependencies: {  }
+name: 'Image Position (Float)'
+vid: image_position
+description: ''
+weight: 0

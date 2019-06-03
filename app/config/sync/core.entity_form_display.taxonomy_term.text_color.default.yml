@@ -1,0 +1,31 @@
+uuid: cfc3d8d0-57e7-4fc2-854c-98d7e5cd9edf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.text_color.field_classes
+    - taxonomy.vocabulary.text_color
+id: taxonomy_term.text_color.default
+targetEntityType: taxonomy_term
+bundle: text_color
+mode: default
+content:
+  field_classes:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

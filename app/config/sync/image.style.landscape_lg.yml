@@ -1,0 +1,23 @@
+uuid: f8849db2-373c-4957-8b0b-1b3605dea833
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: landscape_lg
+label: 'Landscape - 2 - lg (1400×1000)'
+effects:
+  ac620f00-73a9-486a-81c3-f09241324a9d:
+    uuid: ac620f00-73a9-486a-81c3-f09241324a9d
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 1400
+      height: 1000
+      anchor: center-center
+  b91957ea-e69f-41b5-9ef3-1a4699f27612:
+    uuid: b91957ea-e69f-41b5-9ef3-1a4699f27612
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

@@ -1,0 +1,30 @@
+uuid: cedb34fb-e722-410b-8331-d7e5fe7f9646
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.text_position.field_classes
+    - taxonomy.vocabulary.text_position
+  module:
+    - text
+id: taxonomy_term.text_position.default
+targetEntityType: taxonomy_term
+bundle: text_position
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_classes:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

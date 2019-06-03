@@ -1,0 +1,33 @@
+uuid: ce4cabd4-497e-47c8-a22a-fd0e0cd2fcc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_position
+    - paragraphs.paragraphs_type.paragraph
+    - taxonomy.vocabulary.image_position
+  content:
+    - 'taxonomy_term:image_position:bb66f14b-2b8c-439b-a82c-c8974cd469d9'
+id: paragraph.paragraph.field_image_position
+field_name: field_image_position
+entity_type: paragraph
+bundle: paragraph
+label: 'Image Position'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: bb66f14b-2b8c-439b-a82c-c8974cd469d9
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      image_position: image_position
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

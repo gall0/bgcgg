@@ -1,0 +1,19 @@
+uuid: 914166f1-39d0-44f4-a5ef-42a775c09f0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_classes
+    - taxonomy.vocabulary.bac
+id: taxonomy_term.bac.field_classes
+field_name: field_classes
+entity_type: taxonomy_term
+bundle: bac
+label: Classes
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

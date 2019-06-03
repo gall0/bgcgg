@@ -1,0 +1,19 @@
+uuid: e9450af8-601d-4bc9-8bcf-df2f69fddcf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.club
+id: node.club.field_email
+field_name: field_email
+entity_type: node
+bundle: club
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

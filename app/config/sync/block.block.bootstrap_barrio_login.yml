@@ -1,0 +1,22 @@
+uuid: 162c3415-19d0-45c3-aecb-d36cc38072a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - bootstrap_barrio
+_core:
+  default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
+id: bootstrap_barrio_login
+theme: bootstrap_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

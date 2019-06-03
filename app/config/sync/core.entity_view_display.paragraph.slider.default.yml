@@ -1,0 +1,67 @@
+uuid: ebd62c16-868d-4c94-9be7-076896a8be6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider.field_slider_button
+    - field.field.paragraph.slider.field_slider_button_color
+    - field.field.paragraph.slider.field_slider_button_position
+    - field.field.paragraph.slider.field_slider_images
+    - field.field.paragraph.slider.field_slider_message
+    - image.style.custom_slider_tall
+    - paragraphs.paragraphs_type.slider
+  module:
+    - image
+    - link
+    - text
+id: paragraph.slider.default
+targetEntityType: paragraph
+bundle: slider
+mode: default
+content:
+  field_slider_button:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_slider_button_color:
+    weight: 5
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_slider_button_position:
+    weight: 4
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_slider_images:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: custom_slider_tall
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_slider_message:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

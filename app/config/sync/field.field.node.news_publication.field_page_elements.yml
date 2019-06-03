@@ -1,0 +1,52 @@
+uuid: 15ec0fb4-a664-4188-9b20-717e713a5839
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_elements
+    - node.type.news_publication
+    - paragraphs.paragraphs_type.image_button
+  module:
+    - entity_reference_revisions
+id: node.news_publication.field_page_elements
+field_name: field_page_elements
+entity_type: node
+bundle: news_publication
+label: 'Page Elements'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      image_button: image_button
+    target_bundles_drag_drop:
+      block_reference:
+        weight: 9
+        enabled: false
+      paragraph_featured:
+        weight: 13
+        enabled: false
+      photo_collection:
+        weight: 14
+        enabled: false
+      youtube_video:
+        weight: 16
+        enabled: false
+      image_button:
+        enabled: true
+        weight: 34
+      image_buttons:
+        weight: 35
+        enabled: false
+      slider:
+        weight: 36
+        enabled: false
+      paragraph:
+        weight: 37
+        enabled: false
+field_type: entity_reference_revisions

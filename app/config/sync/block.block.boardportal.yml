@@ -1,0 +1,33 @@
+uuid: d0d05bb8-356d-4acd-a7c2-e0b89be1b769
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.board-portal
+  module:
+    - system
+    - user
+  theme:
+    - bgc
+id: boardportal
+theme: bgc
+region: secondary_menu
+weight: -4
+provider: null
+plugin: 'system_menu_block:board-portal'
+settings:
+  id: 'system_menu_block:board-portal'
+  label: 'Board Portal'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      bgc_b: bgc_b
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

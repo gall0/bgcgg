@@ -1,0 +1,9 @@
+uuid: b773189e-ca73-4752-bfbf-3917b5f418b2
+langcode: en
+status: true
+dependencies: {  }
+id: bgc_employee
+label: 'BGC Employee'
+weight: 5
+is_admin: null
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: 2232ab47-6796-4bf7-bb0e-b51dc4248e84
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.bgc_employee
+  module:
+    - user
+id: user_remove_role_action.bgc_employee
+label: 'Remove the BGC Employee role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: bgc_employee

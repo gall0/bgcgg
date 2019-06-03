@@ -1,0 +1,21 @@
+uuid: cbb074b7-e539-45fc-9611-b2614f22ab57
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slider_message
+    - paragraphs.paragraphs_type.slider
+  module:
+    - text
+id: paragraph.slider.field_slider_message
+field_name: field_slider_message
+entity_type: paragraph
+bundle: slider
+label: 'Slider Message'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

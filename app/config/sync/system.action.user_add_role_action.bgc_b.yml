@@ -1,0 +1,14 @@
+uuid: 7e374427-6392-41d1-80d0-68b2f448992a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.bgc_b
+  module:
+    - user
+id: user_add_role_action.bgc_b
+label: 'Add the BGC Board role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: bgc_b

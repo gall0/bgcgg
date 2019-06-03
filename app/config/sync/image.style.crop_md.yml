@@ -1,0 +1,23 @@
+uuid: c1a8b390-0d66-4c1a-a6bb-46523e8100f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: crop_md
+label: 'Crop - 1 - md (700)'
+effects:
+  2ca8e80c-5696-451d-badb-1725f47a889d:
+    uuid: 2ca8e80c-5696-451d-badb-1725f47a889d
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 700
+      height: 700
+      anchor: center-center
+  33a0b327-5dda-4e1e-bdc4-7c3d1609ec63:
+    uuid: 33a0b327-5dda-4e1e-bdc4-7c3d1609ec63
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

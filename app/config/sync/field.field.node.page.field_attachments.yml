@@ -1,0 +1,27 @@
+uuid: b6f22965-e5fc-47dc-88d4-a5f56ab1467c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.page
+  module:
+    - file
+id: node.page.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: page
+label: Attachments
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: attachments
+  file_extensions: 'jpg png pdf'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

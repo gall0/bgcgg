@@ -1,0 +1,38 @@
+uuid: cf55e2a0-0f88-440f-8902-72f4bfccbb2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_thumbnail
+    - node.type.news_publication
+  module:
+    - image
+id: node.news_publication.field_news_thumbnail
+field_name: field_news_thumbnail
+entity_type: node
+bundle: news_publication
+label: 'News Thumbnail'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: news-thumbnails
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 1014f3ba-a0dd-4214-99cf-1c9e764cef7e
+    alt: ''
+    title: ''
+    width: 500
+    height: 500
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

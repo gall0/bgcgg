@@ -1,0 +1,33 @@
+uuid: 046ee8ee-e1c1-4b1b-bc0f-f37b2f35de1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slider_button_color
+    - paragraphs.paragraphs_type.slider
+    - taxonomy.vocabulary.button_color
+  content:
+    - 'taxonomy_term:button_color:55ed669a-c40c-4737-b2ed-f981bb0bf7f7'
+id: paragraph.slider.field_slider_button_color
+field_name: field_slider_button_color
+entity_type: paragraph
+bundle: slider
+label: 'Slider Button Color'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 55ed669a-c40c-4737-b2ed-f981bb0bf7f7
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      button_color: button_color
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

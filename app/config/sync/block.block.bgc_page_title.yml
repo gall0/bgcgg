@@ -1,0 +1,27 @@
+uuid: 16c7e8ea-c065-401c-9d4b-0ac2b56696c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bgc
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: bgc_page_title
+theme: bgc
+region: content
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: true
+    context_mapping: {  }

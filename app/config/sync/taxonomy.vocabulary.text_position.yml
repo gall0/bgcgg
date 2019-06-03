@@ -1,0 +1,8 @@
+uuid: 5f57d294-c83c-49ac-ab5f-84bb91bc9c4d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Text Position'
+vid: text_position
+description: ''
+weight: 0

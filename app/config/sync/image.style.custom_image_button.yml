@@ -1,0 +1,28 @@
+uuid: 14166831-8bbb-4bf2-b7bb-7df7911f4122
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: custom_image_button
+label: 'Custom - Image Button'
+effects:
+  8bf9f054-feb6-4ff6-9085-9f9875bd2063:
+    uuid: 8bf9f054-feb6-4ff6-9085-9f9875bd2063
+    id: image_desaturate
+    weight: -9
+    data: {  }
+  eeb0bbd3-7494-48d7-b228-1bdc1d4c1aec:
+    uuid: eeb0bbd3-7494-48d7-b228-1bdc1d4c1aec
+    id: image_scale_and_crop
+    weight: -8
+    data:
+      width: 700
+      height: 500
+      anchor: center-center
+  7f22ef25-fc2c-4839-93af-90e3a744cf68:
+    uuid: 7f22ef25-fc2c-4839-93af-90e3a744cf68
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

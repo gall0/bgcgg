@@ -1,0 +1,23 @@
+uuid: bd6a3793-90d2-49c8-861a-ad5267505926
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: crop_xl
+label: 'Crop - 3 - xl (2100)'
+effects:
+  4f9d1bdf-04ce-43f4-988d-7d0f45086829:
+    uuid: 4f9d1bdf-04ce-43f4-988d-7d0f45086829
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 2100
+      height: 2100
+      anchor: center-center
+  7ce8dc70-d4cd-4780-bf85-74692573f70a:
+    uuid: 7ce8dc70-d4cd-4780-bf85-74692573f70a
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

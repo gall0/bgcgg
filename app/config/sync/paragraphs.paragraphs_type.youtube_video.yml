@@ -1,0 +1,9 @@
+uuid: 81541caf-a6c3-46ce-995a-01f711f605ac
+langcode: en
+status: true
+dependencies: {  }
+id: youtube_video
+label: 'YouTube Video'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

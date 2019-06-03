@@ -1,0 +1,33 @@
+uuid: 1f0f5ece-2443-4e94-813f-67e7620396e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slider_button_position
+    - paragraphs.paragraphs_type.slider
+    - taxonomy.vocabulary.text_position
+  content:
+    - 'taxonomy_term:text_position:3c338a5a-88c3-4ec6-9280-2c6a552797a5'
+id: paragraph.slider.field_slider_button_position
+field_name: field_slider_button_position
+entity_type: paragraph
+bundle: slider
+label: 'Slider Button Position'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 3c338a5a-88c3-4ec6-9280-2c6a552797a5
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      text_position: text_position
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

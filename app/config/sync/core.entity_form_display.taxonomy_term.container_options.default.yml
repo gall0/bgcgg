@@ -1,0 +1,31 @@
+uuid: e08e0ab1-d26c-4feb-912d-0403b8d44709
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.container_options.field_classes
+    - taxonomy.vocabulary.container_options
+id: taxonomy_term.container_options.default
+targetEntityType: taxonomy_term
+bundle: container_options
+mode: default
+content:
+  field_classes:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

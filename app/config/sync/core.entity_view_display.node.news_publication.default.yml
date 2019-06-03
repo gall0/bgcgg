@@ -1,0 +1,37 @@
+uuid: 5a82b5c8-2d43-4305-aaf3-587a754a081e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.news_publication.body
+    - field.field.node.news_publication.field_news_thumbnail
+    - field.field.node.news_publication.field_page_elements
+    - node.type.news_publication
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.news_publication.default
+targetEntityType: node
+bundle: news_publication
+mode: default
+content:
+  body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_page_elements:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  field_news_thumbnail: true
+  links: true

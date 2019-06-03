@@ -1,0 +1,20 @@
+uuid: 6f33e4f3-3c5f-4897-9b67-f19b9585833a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bgc
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: bgc_local_actions
+theme: bgc
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

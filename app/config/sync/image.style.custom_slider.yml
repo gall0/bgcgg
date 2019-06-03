@@ -1,0 +1,23 @@
+uuid: a2820751-4342-49c6-9bf2-ab0a13415ab9
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: custom_slider
+label: 'Custom - Slider'
+effects:
+  76304b6c-eecf-4975-a648-3d861f5b5be6:
+    uuid: 76304b6c-eecf-4975-a648-3d861f5b5be6
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 2100
+      height: 700
+      anchor: center-center
+  39b3ab38-2516-4443-b4cd-f781bf0ef1c8:
+    uuid: 39b3ab38-2516-4443-b4cd-f781bf0ef1c8
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

@@ -1,0 +1,23 @@
+uuid: 86d9a50c-072e-40f3-b2be-30eb2a555aef
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: landscape_md
+label: 'Landscape - 1 - md (700×500)'
+effects:
+  8dff7c6b-393c-444f-9e16-8bcad5c7aa39:
+    uuid: 8dff7c6b-393c-444f-9e16-8bcad5c7aa39
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 700
+      height: 500
+      anchor: center-center
+  47d3fea3-95ce-4bd1-add1-4e5e19a3fddf:
+    uuid: 47d3fea3-95ce-4bd1-add1-4e5e19a3fddf
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

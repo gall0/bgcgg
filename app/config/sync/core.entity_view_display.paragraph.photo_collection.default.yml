@@ -1,0 +1,25 @@
+uuid: 1a5de44f-2b77-456e-8b9e-d1297666be4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.photo_collection.field_collection_photos
+    - image.style.landscape_sm
+    - paragraphs.paragraphs_type.photo_collection
+  module:
+    - image
+id: paragraph.photo_collection.default
+targetEntityType: paragraph
+bundle: photo_collection
+mode: default
+content:
+  field_collection_photos:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: landscape_sm
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

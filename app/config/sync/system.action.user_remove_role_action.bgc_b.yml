@@ -1,0 +1,14 @@
+uuid: c355fdcf-e7b1-4d94-9a16-08b5c17c5d01
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.bgc_b
+  module:
+    - user
+id: user_remove_role_action.bgc_b
+label: 'Remove the BGC Board role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: bgc_b

@@ -1,0 +1,14 @@
+uuid: 8fa6b344-6ed5-41b4-aa97-27a2d96e4207
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.bgc
+  module:
+    - user
+id: user_add_role_action.bgc
+label: 'Add the BGC Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: bgc

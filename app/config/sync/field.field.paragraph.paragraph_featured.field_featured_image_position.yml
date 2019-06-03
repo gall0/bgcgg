@@ -1,0 +1,23 @@
+uuid: 3a2838e7-f05f-40ce-ac09-9db90080ded1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_featured_image_position
+    - paragraphs.paragraphs_type.paragraph_featured
+id: paragraph.paragraph_featured.field_featured_image_position
+field_name: field_featured_image_position
+entity_type: paragraph
+bundle: paragraph_featured
+label: 'Image Position'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Text Left'
+  off_label: 'Text Right'
+field_type: boolean

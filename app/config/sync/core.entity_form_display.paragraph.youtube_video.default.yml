@@ -1,0 +1,37 @@
+uuid: 5f93a33b-d408-4322-9af8-6f8c5116931a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.youtube_video.field_background_color
+    - field.field.paragraph.youtube_video.field_container
+    - field.field.paragraph.youtube_video.field_y
+    - paragraphs.paragraphs_type.youtube_video
+  module:
+    - youtube
+id: paragraph.youtube_video.default
+targetEntityType: paragraph
+bundle: youtube_video
+mode: default
+content:
+  field_background_color:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_container:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_y:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: youtube
+    region: content
+hidden:
+  created: true
+  status: true

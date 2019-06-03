@@ -1,0 +1,14 @@
+uuid: 920ca64a-8847-4633-8629-a72d031075eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.bgc
+  module:
+    - user
+id: user_remove_role_action.bgc
+label: 'Remove the BGC Admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: bgc

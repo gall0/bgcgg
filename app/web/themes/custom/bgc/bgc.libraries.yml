@@ -1,0 +1,23 @@
+global-styling:
+  version: VERSION
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js: { type: external, minified: true}
+    //stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js: { type: external, minified: true }
+    js/global.js: {}
+  css:
+    component:
+      css/style.css: {}
+      css/colors.css: {}
+      css/main.css: {}
+bootstrap:
+  js:
+    /libraries/bootstrap/js/bootstrap.bundle.min.js: {}
+  css:
+    component:
+      /libraries/bootstrap/css/bootstrap.min.css: {}
+bgcCopyToClipboard:
+  version: 1.x
+  js:
+    js/bgcCopyToClipboard.js: {}
+  dependencies:
+    - core/jquery.once

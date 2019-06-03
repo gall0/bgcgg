@@ -1,0 +1,28 @@
+uuid: 826de198-3f92-4c5c-97f0-5d890dbf1e8b
+langcode: en
+status: true
+dependencies: {  }
+id: bgc_manager
+label: 'BGC Manager'
+weight: 2
+is_admin: null
+permissions:
+  - 'administer menu'
+  - 'create internal workflow_transition'
+  - 'create page content'
+  - 'create status workflow_transition'
+  - 'create url aliases'
+  - 'delete any page content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit any page content'
+  - 'edit own page content'
+  - 'revert page revisions'
+  - 'use status transition create_new_draft'
+  - 'use status transition publish'
+  - 'use status transition publish_internally'
+  - 'use text format editor'
+  - 'use text format html'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view page revisions'

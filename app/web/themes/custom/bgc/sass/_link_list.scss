@@ -1,0 +1,22 @@
+/* 
+
+This needs work so that link list can be splittable into columns.
+
+*/
+
+
+@mixin column-count($cols) {
+    -webkit-column-count: $cols; /* Chrome, Safari, Opera */
+    -moz-column-count: $cols; /* Firefox */
+    column-count: $cols;
+}
+
+.column-count-2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.bgc-link-list {
+    padding: 2em;
+}

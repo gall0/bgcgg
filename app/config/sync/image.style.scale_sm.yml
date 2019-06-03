@@ -1,0 +1,25 @@
+uuid: 7d07cc11-88c9-47c9-8ec0-50f0a057136b
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+_core:
+  default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
+name: scale_sm
+label: 'Scale - 0 - sm (350)'
+effects:
+  1cfec298-8620-4749-b100-ccb6c4500779:
+    uuid: 1cfec298-8620-4749-b100-ccb6c4500779
+    id: image_scale
+    weight: -9
+    data:
+      width: 350
+      height: 350
+      upscale: false
+  c8f024fd-4066-43d4-ad7c-74ce8d861a9d:
+    uuid: c8f024fd-4066-43d4-ad7c-74ce8d861a9d
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

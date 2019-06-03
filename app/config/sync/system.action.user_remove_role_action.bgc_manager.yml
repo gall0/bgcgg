@@ -1,0 +1,14 @@
+uuid: 6e411262-709f-4aac-b19e-9e2e9d6cdb0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.bgc_manager
+  module:
+    - user
+id: user_remove_role_action.bgc_manager
+label: 'Remove the BGC Manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: bgc_manager

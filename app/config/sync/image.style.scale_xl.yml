@@ -1,0 +1,23 @@
+uuid: 833568d6-5c22-439f-8975-fd8dc43e503e
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: scale_xl
+label: 'Scale - 3 - xl (2100)'
+effects:
+  45ea44c5-417c-412b-9001-0752f39eda37:
+    uuid: 45ea44c5-417c-412b-9001-0752f39eda37
+    id: image_scale
+    weight: -9
+    data:
+      width: 2100
+      height: 2100
+      upscale: false
+  e0863107-ce27-4527-a1fe-0286ed10272c:
+    uuid: e0863107-ce27-4527-a1fe-0286ed10272c
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

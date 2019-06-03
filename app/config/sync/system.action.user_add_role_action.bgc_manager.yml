@@ -1,0 +1,14 @@
+uuid: 70bf5b7c-c1ff-46d6-9847-71f3172ced5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.bgc_manager
+  module:
+    - user
+id: user_add_role_action.bgc_manager
+label: 'Add the BGC Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: bgc_manager

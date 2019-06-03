@@ -1,0 +1,20 @@
+uuid: 89ffee3e-bfa4-4e97-baba-761fff0d0c9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+id: paragraph.field_slider_button_color
+field_name: field_slider_button_color
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

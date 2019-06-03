@@ -1,0 +1,9 @@
+uuid: 074c39b3-1543-4b40-ae70-01de9d4f7d03
+langcode: en
+status: true
+dependencies: {  }
+id: paragraph_featured
+label: 'Paragraph Featured'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,29 @@
+uuid: 49663f9c-b7de-4cf6-90d1-a0bcf015a27f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_container
+    - paragraphs.paragraphs_type.paragraph_featured
+    - taxonomy.vocabulary.container_options
+id: paragraph.paragraph_featured.field_container
+field_name: field_container
+entity_type: paragraph
+bundle: paragraph_featured
+label: Container
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      container_options: container_options
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

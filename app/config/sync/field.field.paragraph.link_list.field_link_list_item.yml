@@ -1,0 +1,58 @@
+uuid: d95611c2-fdfd-41b0-994a-117d887489dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_list_item
+    - paragraphs.paragraphs_type.link_list
+    - paragraphs.paragraphs_type.link_list_item
+  module:
+    - entity_reference_revisions
+id: paragraph.link_list.field_link_list_item
+field_name: field_link_list_item
+entity_type: paragraph
+bundle: link_list
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      link_list_item: link_list_item
+    target_bundles_drag_drop:
+      block_reference:
+        weight: 11
+        enabled: false
+      image_button:
+        weight: 12
+        enabled: false
+      image_buttons:
+        weight: 13
+        enabled: false
+      link_list:
+        weight: 14
+        enabled: false
+      link_list_item:
+        enabled: true
+        weight: 15
+      paragraph:
+        weight: 16
+        enabled: false
+      paragraph_featured:
+        weight: 17
+        enabled: false
+      photo_collection:
+        weight: 18
+        enabled: false
+      slider:
+        weight: 19
+        enabled: false
+      youtube_video:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

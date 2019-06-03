@@ -1,0 +1,27 @@
+uuid: a9bfa2d7-3fb2-48ea-be34-f01e5f72074c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_file
+    - paragraphs.paragraphs_type.link_list_item
+  module:
+    - file
+id: paragraph.link_list_item.field_file
+field_name: field_file
+entity_type: paragraph
+bundle: link_list_item
+label: File
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: files
+  file_extensions: 'jpg png pdf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

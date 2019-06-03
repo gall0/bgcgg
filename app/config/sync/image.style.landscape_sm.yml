@@ -1,0 +1,23 @@
+uuid: 435a8791-84a5-4092-9a81-e11d48c73d33
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: landscape_sm
+label: 'Landscape - 0 - sm (350×250)'
+effects:
+  c4fed9d0-a627-49e2-872b-6a2aaeba072e:
+    uuid: c4fed9d0-a627-49e2-872b-6a2aaeba072e
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 350
+      height: 250
+      anchor: center-center
+  e2ea4c0d-1564-402b-96e0-3adf9fa366d5:
+    uuid: e2ea4c0d-1564-402b-96e0-3adf9fa366d5
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

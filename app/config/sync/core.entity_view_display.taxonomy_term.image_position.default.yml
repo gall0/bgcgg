@@ -1,0 +1,22 @@
+uuid: c69c15df-5bdc-4496-9b75-e37e381cd480
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.image_position.field_classes
+    - taxonomy.vocabulary.image_position
+id: taxonomy_term.image_position.default
+targetEntityType: taxonomy_term
+bundle: image_position
+mode: default
+content:
+  field_classes:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  description: true

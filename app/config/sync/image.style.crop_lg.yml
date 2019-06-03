@@ -1,0 +1,23 @@
+uuid: 5025b2bc-4430-48b7-bf92-cb096414278d
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: crop_lg
+label: 'Crop - 2 - lg (1400)'
+effects:
+  71cf12af-2a74-4e7e-813a-2b6b8f92f3cd:
+    uuid: 71cf12af-2a74-4e7e-813a-2b6b8f92f3cd
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 1400
+      height: 1400
+      anchor: center-center
+  bcbd8aa9-ecfe-4902-840c-92cc7afc3adc:
+    uuid: bcbd8aa9-ecfe-4902-840c-92cc7afc3adc
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

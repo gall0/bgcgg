@@ -1,0 +1,23 @@
+uuid: e7c57d28-eea7-4ff1-9366-a1761a11dc3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: custom_slider_tall
+label: 'Custom - Slider Tall'
+effects:
+  113192a7-c0f8-49c0-91bd-0e77d2dc0948:
+    uuid: 113192a7-c0f8-49c0-91bd-0e77d2dc0948
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 2100
+      height: 1050
+      anchor: center-center
+  1143712b-3777-44c2-9aeb-4179019450df:
+    uuid: 1143712b-3777-44c2-9aeb-4179019450df
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

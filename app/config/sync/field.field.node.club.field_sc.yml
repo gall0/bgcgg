@@ -1,0 +1,19 @@
+uuid: 7a864ab6-ef06-4edf-97e3-61b3b4ffb275
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sc
+    - node.type.club
+id: node.club.field_sc
+field_name: field_sc
+entity_type: node
+bundle: club
+label: 'Schools Served'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

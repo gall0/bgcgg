@@ -1,0 +1,17 @@
+uuid: 8e5919c1-e8fc-4c6c-8e2e-57f4ec849d99
+langcode: en
+status: true
+dependencies: {  }
+name: Editor
+format: editor
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <img src alt data-entity-type data-entity-uuid> <p> <h1> <pre> <a href hreflang data-entity-type data-entity-uuid>'
+      filter_html_help: true
+      filter_html_nofollow: false

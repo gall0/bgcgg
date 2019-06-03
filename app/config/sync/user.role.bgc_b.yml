@@ -1,0 +1,12 @@
+uuid: b14402e8-f6a8-4672-bd11-bf8cc0bb656d
+langcode: en
+status: true
+dependencies: {  }
+id: bgc_b
+label: 'BGC Board'
+weight: 4
+is_admin: null
+permissions:
+  - 'create internal workflow_transition'
+  - 'create status workflow_transition'
+  - 'view any unpublished content'

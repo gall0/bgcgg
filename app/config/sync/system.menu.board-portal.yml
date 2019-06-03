@@ -1,0 +1,8 @@
+uuid: d2b7b75e-5335-4d51-baff-c6e9e6e79326
+langcode: en
+status: true
+dependencies: {  }
+id: board-portal
+label: 'Board Portal'
+description: ''
+locked: false

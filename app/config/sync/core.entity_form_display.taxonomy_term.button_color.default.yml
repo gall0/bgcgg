@@ -1,0 +1,31 @@
+uuid: afe05d39-8bdc-4536-891e-9a94ba1f13b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.button_color.field_classes
+    - taxonomy.vocabulary.button_color
+id: taxonomy_term.button_color.default
+targetEntityType: taxonomy_term
+bundle: button_color
+mode: default
+content:
+  field_classes:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

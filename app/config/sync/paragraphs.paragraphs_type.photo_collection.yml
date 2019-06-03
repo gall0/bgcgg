@@ -1,0 +1,9 @@
+uuid: 0cdbfe56-04e3-4652-977d-a75602a50bde
+langcode: en
+status: true
+dependencies: {  }
+id: photo_collection
+label: 'Photo Collection'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

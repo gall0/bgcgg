@@ -1,0 +1,22 @@
+uuid: 16d93154-8d70-4edf-b510-451a60ec533e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.container_options.field_classes
+    - taxonomy.vocabulary.container_options
+id: taxonomy_term.container_options.default
+targetEntityType: taxonomy_term
+bundle: container_options
+mode: default
+content:
+  field_classes:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  description: true

@@ -1,0 +1,18 @@
+uuid: fd7fd27a-ca7c-4e5e-a3f5-e1ba3ddcef84
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_featured_image_position
+field_name: field_featured_image_position
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

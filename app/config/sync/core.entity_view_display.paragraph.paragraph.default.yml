@@ -1,0 +1,74 @@
+uuid: 6ec3653b-f282-467e-ae2b-96413708211d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph.field_background_color
+    - field.field.paragraph.paragraph.field_container
+    - field.field.paragraph.paragraph.field_image_position
+    - field.field.paragraph.paragraph.field_inline_image
+    - field.field.paragraph.paragraph.field_paragraph_text
+    - field.field.paragraph.paragraph.field_text_color
+    - image.style.scale_md
+    - paragraphs.paragraphs_type.paragraph
+  module:
+    - image
+    - text
+id: paragraph.paragraph.default
+targetEntityType: paragraph
+bundle: paragraph
+mode: default
+content:
+  field_background_color:
+    weight: 4
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_container:
+    weight: 3
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_image_position:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_inline_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: scale_md
+      image_link: file
+    third_party_settings: {  }
+  field_paragraph_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_text_color:
+    weight: 5
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

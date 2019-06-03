@@ -1,0 +1,27 @@
+uuid: e3d24bcd-43e0-415f-b05a-739efce8b618
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.club
+  module:
+    - file
+id: node.club.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: club
+label: Attachments
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: attachments
+  file_extensions: 'jpg png pdf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file
