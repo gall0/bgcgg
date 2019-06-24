@@ -38,15 +38,34 @@
  * @ingroup themeable
  */
 #}
-<div class="bgc-paragraph {{ content.field_container|render|striptags|trim|split(' ')|last }} {{ content.field_background_color|render|striptags|trim|split(' ')|last }} {{ content.field_text_color|render|striptags|trim|split(' ')|last }}">
-<div class="row">
-<div class="col">
-{% if paragraph.field_inline_image is not empty %}
-<div class="inline-block col-12 col-md-6 mb-2 {{ content.field_image_position|render|striptags|trim }}">
-{{ content.field_inline_image }}
-</div>
-{% endif %}
-{{ content.field_paragraph_text }}
-</div>
-</div>
-</div>
+
+{# Get URL of single file field #}
+{# {{ paragraph.field_file.entity.uri.value }} #}
+
+{# Get URL of multi file field #}
+{# {{ paragraph.field_file['#items'].entity.uri.value }} #}
+
+{# Trun into link #}
+{# {{ file_url(paragraph.field_file.entity.uri.value) }} #}
+
+{# Check if there is at least one value #}
+{# {% if paragraph.field_file[0] %} #}
+{# // Do something... #}
+{# {% endif %} #}
+
+{%
+  set classes = [
+    'paragraph',
+    'container',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

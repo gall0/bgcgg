@@ -1,0 +1,22 @@
+uuid: 558ad053-38f3-45dc-af76-019cc42cbe3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: club_pattern
+label: 'Club Pattern'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  494ae6c3-9dab-471e-ae0b-6ac8cf695966:
+    id: node_type
+    bundles:
+      club: club
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 494ae6c3-9dab-471e-ae0b-6ac8cf695966
+selection_logic: and
+weight: 0
+relationships: {  }

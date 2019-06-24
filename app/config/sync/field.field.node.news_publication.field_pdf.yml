@@ -1,0 +1,27 @@
+uuid: 53293beb-a573-4e62-ab9d-8190b1240124
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pdf
+    - node.type.news_publication
+  module:
+    - file
+id: node.news_publication.field_pdf
+field_name: field_pdf
+entity_type: node
+bundle: news_publication
+label: PDF
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: 'jpg png pdf'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

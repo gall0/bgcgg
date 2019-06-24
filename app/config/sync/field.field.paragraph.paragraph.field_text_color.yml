@@ -6,15 +6,19 @@ dependencies:
     - field.storage.paragraph.field_text_color
     - paragraphs.paragraphs_type.paragraph
     - taxonomy.vocabulary.text_color
+  content:
+    - 'taxonomy_term:text_color:c4dc2c7c-9362-4a79-a341-b3ae3b9d8f64'
 id: paragraph.paragraph.field_text_color
 field_name: field_text_color
 entity_type: paragraph
 bundle: paragraph
 label: 'Text Color'
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    target_uuid: c4dc2c7c-9362-4a79-a341-b3ae3b9d8f64
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'

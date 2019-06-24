@@ -6,9 +6,11 @@ dependencies:
     - field.field.node.news_publication.body
     - field.field.node.news_publication.field_news_thumbnail
     - field.field.node.news_publication.field_page_elements
+    - field.field.node.news_publication.field_pdf
     - node.type.news_publication
   module:
     - entity_reference_revisions
+    - file
     - text
     - user
 id: node.news_publication.default
@@ -31,6 +33,14 @@ content:
       link: ''
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
+    region: content
+  field_pdf:
+    weight: 2
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
     region: content
 hidden:
   field_news_thumbnail: true

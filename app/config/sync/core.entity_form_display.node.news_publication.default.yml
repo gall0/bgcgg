@@ -6,10 +6,12 @@ dependencies:
     - field.field.node.news_publication.body
     - field.field.node.news_publication.field_news_thumbnail
     - field.field.node.news_publication.field_page_elements
+    - field.field.node.news_publication.field_pdf
     - image.style.scale_sm
     - node.type.news_publication
   module:
     - content_moderation
+    - file
     - image
     - paragraphs
     - path
@@ -59,6 +61,13 @@ content:
         collapse_edit_all: collapse_edit_all
     third_party_settings: {  }
     type: paragraphs
+    region: content
+  field_pdf:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
     region: content
   moderation_state:
     type: moderation_state_default

@@ -44,11 +44,9 @@ table tr th {
     background: var(--primary);
 }
 
-
-.label, .form-label, {
-    font-size: 1.6em;
-    margin-bottom:0;
-}
+.js-form-item, .form-actions {
+    margin-bottom: 1em!important;
+} 
 
 .field-label {
     font-size:1.4em;
