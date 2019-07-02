@@ -94,8 +94,8 @@
                         {% endif %}
                         {{ page.header }}
                         {% if page.primary_menu or page.header_form %}
-                            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span></button>
+                            <button class="navbar-toggler navbar-toggler-right w-100 border-0" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span> <span class="primary-menu">Menu</span></button> 
                             <div class="collapse navbar-collapse align-items-stretch" id="CollapsingNavbar">
                                 {{ page.primary_menu }}
                                 {% if page.header_form %}
