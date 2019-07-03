@@ -44,7 +44,8 @@
 {% if position == "true" %}
     {% set reverseRow = "flex-row-reverse" %}
 {% endif %}
-<div class="bgc-paragraph-featured {{ content.field_container|render|striptags|trim|split(' ')|last }} {{ content.field_background_color|render|striptags|trim|split(' ')|last }} {{ content.field_text_color|render|striptags|trim|split(' ')|last }}">
+<div class="{{ content.field_background_color|render|striptags|trim|split(' ')|last }} container-fluid">
+<div class="bgc-paragraph-featured {{ content.field_container|render|striptags|trim|split(' ')|last }} {{ content.field_text_color|render|striptags|trim|split(' ')|last }}">
     <div class="row {{ reverseRow }}">
         <div class="col-md-5">
             {{ content.field_paragraph_featured_image }}
@@ -54,4 +55,5 @@
                 {{ content.field_paragraph_text }}
         </div>
     </div>
+</div>
 </div>

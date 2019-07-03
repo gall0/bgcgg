@@ -38,7 +38,8 @@
  * @ingroup themeable
  */
 #}
-<div class="bgc-paragraph {{ content.field_container|render|striptags|trim|split(' ')|last }} {{ content.field_background_color|render|striptags|trim|split(' ')|last }} {{ content.field_text_color|render|striptags|trim|split(' ')|last }}">
+<div class="{{ content.field_background_color|render|striptags|trim|split(' ')|last }} container-fluid">
+<div class="bgc-paragraph {{ content.field_container|render|striptags|trim|split(' ')|last }} {{ content.field_text_color|render|striptags|trim|split(' ')|last }}">
 <div class="row">
 <div class="col">
 {% if paragraph.field_inline_image is not empty %}
