@@ -415,7 +415,7 @@ display:
           exposed: false
           expose:
             label: ''
-      title: Clubs
+      title: 'Find a Club'
       header: {  }
       footer: {  }
       empty: {  }
@@ -441,7 +441,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: clubs
+      path: find-a-club
     cache_metadata:
       max-age: -1
       contexts:

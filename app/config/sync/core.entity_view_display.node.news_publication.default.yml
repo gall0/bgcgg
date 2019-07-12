@@ -10,21 +10,12 @@ dependencies:
     - node.type.news_publication
   module:
     - entity_reference_revisions
-    - file
-    - text
     - user
 id: node.news_publication.default
 targetEntityType: node
 bundle: news_publication
 mode: default
 content:
-  body:
-    weight: 1
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   field_page_elements:
     weight: 0
     label: hidden
@@ -34,14 +25,8 @@ content:
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
     region: content
-  field_pdf:
-    weight: 2
-    label: above
-    settings:
-      use_description_as_link_text: true
-    third_party_settings: {  }
-    type: file_default
-    region: content
 hidden:
+  body: true
   field_news_thumbnail: true
+  field_pdf: true
   links: true
