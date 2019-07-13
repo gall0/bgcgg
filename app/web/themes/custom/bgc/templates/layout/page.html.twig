@@ -92,22 +92,30 @@
                     {% if container_navbar %}
                         <div class="container">
                         {% endif %}
-                        {{ page.header }}
-                        {% if page.primary_menu or page.header_form %}
-                            <button class="navbar-toggler navbar-toggler-right w-100 border-0" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span> <span class="primary-menu">Menu</span></button> 
-                            <div class="collapse navbar-collapse align-items-stretch" id="CollapsingNavbar">
-                                {{ page.primary_menu }}
-                                {% if page.header_form %}
-                                    <div class="form-inline navbar-form float-right">
-                                        {{ page.header_form }}
+                        <div class="row my-2">
+
+                            {{ page.header }}
+
+                            <!-- Menu -->
+                            <div class="col-12 col-md-8 my-auto">
+                                {% if page.primary_menu or page.header_form %}
+                                    <button class="mobile-navbar navbar-toggler navbar-toggler-right w-100 border-0" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                        <span class="primary-menu">Menu</span></button>
+                                    <div class="collapse navbar-collapse align-items-stretch" id="CollapsingNavbar">
+                                        {{ page.primary_menu }}
+                                        {% if page.header_form %}
+                                            <div class="form-inline navbar-form float-right">
+                                                {{ page.header_form }}
+                                            </div>
+                                        {% endif %}
                                     </div>
                                 {% endif %}
+                                {% if sidebar_collapse %}
+                                    <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#CollapsingLeft" aria-controls="CollapsingLeft" aria-expanded="false" aria-label="Toggle navigation"></button>
+                                {% endif %}
                             </div>
-                        {% endif %}
-                        {% if sidebar_collapse %}
-                            <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#CollapsingLeft" aria-controls="CollapsingLeft" aria-expanded="false" aria-label="Toggle navigation"></button>
-                        {% endif %}
+                        </div>
                         {% if container_navbar %}
                         </div>
                     {% endif %}
@@ -170,35 +178,36 @@
         {% endif %}
         <footer class="bg-blue text-white p-5">
             <div class="row">
-                <div class="col-12 col-md-6 text-center my-auto">
-                    <img src="/sites/default/files/attachments/bgcgg-logo-white_0.png" class="col-9 col-md-8 col-lg-6 img-fluid"><br>
+                <div class="col-12 col-md-6 offset-lg-2 col-lg-4 offset-xl-3 col-xl-3 text-center my-auto">
+                    <img src="/sites/default/files/attachments/bgcgg-logo-white_0.png" class="col-6 col-md-8 col-lg-9 img-fluid"><br>
                     <div class="social-buttons mb-5">
-                    <a href="https://www.facebook.com/bgcgg"><img src="/sites/default/files/attachments/facebook.png" class="img-fluid"></a>
-                    <a href="https://www.youtube.com/user/BGCGardenGrove"><img src="/sites/default/files/attachments/youtube.png" class="img-fluid"></a>
-                    <a href="https://twitter.com/bgcgg"><img src="/sites/default/files/attachments/twitter.png" class="img-fluid"></a></div>
+                        <a href="https://www.facebook.com/bgcgg"><img src="/sites/default/files/attachments/facebook.png" class="img-fluid"></a>
+                        <a href="https://www.youtube.com/user/BGCGardenGrove"><img src="/sites/default/files/attachments/youtube.png" class="img-fluid"></a>
+                        <a href="https://twitter.com/bgcgg"><img src="/sites/default/files/attachments/twitter.png" class="img-fluid"></a>
+                    </div>
                 </div>
 
                 <div class="col-12 col-md-6 my-auto">
-                  <div class="footer-divider">
-                    <address>
-                        <strong class="h3">Boys and Girls Clubs of Garden Grove</strong>
-                        <br>
-                        <span class="h4">Administrative Offices</span><br>
-                        10540 Chapman Avenue
-                        <br>
-                        Garden Grove, CA 92840
-                    </address>
-                    <p>
-                    (714) 530 - 0430
-                    </p>
-                    <p>
-                        <a href="/newsletter" class="btn btn-light">Newsletter</a>
-                        <a href="/feedback" class="btn btn-light">Feedback</a>
-                    </p>
+                    <div class="footer-divider">
+                        <address>
+                            <strong class="h3">Boys & Girls Clubs of Garden Grove</strong>
+                            <br>
+                            <span class="h4">Administrative Offices</span><br>
+                            10540 Chapman Avenue
+                            <br>
+                            Garden Grove, CA 92840
+                        </address>
+                        <p>
+                            (714) 530 - 0430
+                        </p>
+                        <p>
+                            <a href="/newsletter" class="btn btn-light">Newsletter</a>
+                            <a href="/feedback" class="btn btn-light">Feedback</a>
+                        </p>
                     </div>
                 </div>
-        </div>
+            </div>
 
-    </footer>
-</div>
+        </footer>
+    </div>
 </div>

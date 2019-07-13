@@ -16,6 +16,10 @@
 #}
 {{ title_prefix }}
 {% if title %}
-  <h1{{ title_attributes.addClass('title') }}>{{ title }}</h1>
+    <div class="title-background title-{{ title|render|striptags|trim|replace({' ':'-'})|lower }} d-flex align-items-end">
+        <div class="title-gradient w-100 align-items-end p-5">
+            <h1{{ title_attributes.addclass('title') }}>{{ title }}</h1>
+        </div>
+    </div>
 {% endif %}
 {{ title_suffix }}

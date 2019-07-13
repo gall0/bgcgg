@@ -33,10 +33,10 @@
  * - field_type: The type of the field.
  * - label_display: The display settings for the label.
  *
- *
  * @see template_preprocess_field()
  */
 #}
-{% for item in items %}
-  <div{{ item.attributes.addClass("col-12 col-sm-6 col-md-4") }}>{{ item.content }}</div>
-{% endfor %}
+
+    {% for item in items %}
+      {{ item.content }}
+    {% endfor %}

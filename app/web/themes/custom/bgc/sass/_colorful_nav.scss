@@ -5,6 +5,38 @@
     width: 100%;
 }
 
+.navbar {
+    display: block;
+}
+
+.title-background {
+    height: 30em;
+
+    .title-gradient {
+        background-image: linear-gradient( rgba(255,0,0,0), rgba(0, 46, 75, 1));
+        
+        .title{
+            color: white;
+        }
+    }
+}
+
+
+
+.mobile-navbar {
+    background-color: var(--primary);
+    padding-top: .5em;
+    margin-top: 1em;
+
+    .primary-menu {
+        color: white !important;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 35 35' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+}
+
 .menu--main {
     width: 100%;
     align-self: center;
@@ -29,7 +61,7 @@
         text-align: center;
 
         &:hover {
-            background: blue;
+            background: #0277bd;
             color: white;
             text-decoration: none;
         }
@@ -54,7 +86,7 @@
         background-color: var(--blue);
     }
 
-    .community-impact-programs {
+    .community-health-programs {
         background-color: var(--pink);
     }
 
@@ -95,15 +127,4 @@
 .dropdown-item.active,
 .dropdown-item:active {
     background-color: unset;
-}
-
-.primary-menu{
-    color: var(--blue)!important;
-}
-
-.navbar-dark .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 35 35' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0,90,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-.navbar-dark .navbar-toggler{
-    border-color: blue;
 }

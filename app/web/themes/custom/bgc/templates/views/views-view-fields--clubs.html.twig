@@ -32,21 +32,29 @@
  */
 #}
 
-<div class="row mb-3">
+<div class="row my-5">
     <div class="col-sm-4">
         {{ fields.field_club_photo.content }}
     </div>
     <div class="col-sm-4">
-        <span class="h3">{{ fields.title.content }}</span><br>
-        <strong>Boys and Girls Club</strong><br>
-        {{ fields.field_address.content }}<br>
-        {{ fields.field_phone.content }}
-
+        <p>
+            <span class="h3">{{ fields.title.content }}</span><br>
+            {{ fields.field_address.content }}<br>
+            {{ fields.field_phone.content }}<br>
+            {{ fields.field_email.content }}
+        </p>
+        <p>
+            <span class="h5">Open Year Round – Monday - Friday</span><br>
+            After School<br>
+            Spring Break<br>
+            Summer<br>
+            Select Holidays
+        </p>
 
     </div>
     <div class="col-sm-4">
-    <strong>Schools Served</strong>
-    {{ fields.field_sc.content }}
+        <span class="h4">Schools Served</span>
+        {{ fields.field_sc.content }}
     </div>
 </div>
-<hr class="club-divider">  
+<hr class="club-divider">
