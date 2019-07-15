@@ -21,6 +21,18 @@
     }
 }
 
+@include media-breakpoint-down(md) {
+    .title-background {
+        height: 20em;
+    }
+}
+
+
+@include media-breakpoint-down(sm) {
+    .title-background {
+        height: 13em;
+    }
+}
 
 
 .mobile-navbar {

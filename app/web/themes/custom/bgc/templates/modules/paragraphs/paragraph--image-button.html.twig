@@ -43,7 +43,7 @@
 
 {% block paragraph %}
     {% block content %}
-      <a href="{{ content.field_button_link.0['#url'] }}">
+      <a href="{{ content.field_button_link.0['#url'] }}" class="no-decoration">
       <div class="card img-btn-card">
         <img class="card-img" src="{{ content.field_button_image|render|striptags|trim }}" alt="Card image">
         <div class="card-img-overlay p-0">

@@ -54,3 +54,15 @@ text-align: center;
     padding-left: 0;
     padding-right: 0;
 }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, body, .body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.no-decoration {
+    text-decoration: none!important;
+}
+
+.text-bold{
+    font-weight: bold;
+}
