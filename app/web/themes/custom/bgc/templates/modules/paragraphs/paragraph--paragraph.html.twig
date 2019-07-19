@@ -39,15 +39,15 @@
  */
 #}
 <div class="{{ content.field_background_color|render|striptags|trim|split(' ')|last }} container-fluid">
-<div class="bgc-paragraph {{ content.field_container|render|striptags|trim|split(' ')|last }}">
-<div class="row">
-<div class="col">
-{% if paragraph.field_inline_image is not empty %}
-<div class="inline-block {{ content.field_image_size|render|striptags|trim }} {{ content.field_image_position|render|striptags|trim }}">
-{{ content.field_inline_image }}
-</div>
-{% endif %}
-{{ content.field_paragraph_text }}
-</div>
-</div>
-</div>
+    <div class="bgc-paragraph {{ content.field_container|render|striptags|trim|split(' ')|last }}">
+        <div class="row">
+            <div class="col">
+                {% if paragraph.field_inline_image is not empty %}
+                    <div class="inline-block pb-2 {{ content.field_image_size|render|striptags|trim }} {{ content.field_image_position|render|striptags|trim }}">
+                        {{ content.field_inline_image }}
+                    </div>
+                {% endif %}
+                {{ content.field_paragraph_text }}
+            </div>
+        </div>
+    </div>

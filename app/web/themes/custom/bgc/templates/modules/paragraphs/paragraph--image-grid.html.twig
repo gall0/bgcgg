@@ -84,7 +84,9 @@ Button Description:
                     {% for button in buttons %}
                         <div class="{{ itemsPerRow }} d-flex align-items-stretch mb-3">
                             <!-- card Start -->
-                            <a class="d-flex no-decoration graphical-button" href="{{ button['#paragraph'].field_link.0.url }}">
+                            {% if button['#paragraph'].field_link.0. url %}
+                                <a class="d-flex no-decoration graphical-button" href="{{ button['#paragraph'].field_link.0.url }}">
+                                {% endif %}
                                 <div class="card">
                                     <div class="card-img-top static-flex p-1"><img alt="" class="img-fluid" src="{{ button['#paragraph'].field_button_image.entity.fileuri|image_style(imageStyle) }}"/></div>
                                     <div class="card-footer h-100 text-center">
@@ -92,7 +94,9 @@ Button Description:
                                         <div class="description">{{ button['#paragraph'].field_image_description.value }}</div>
                                     </div>
                                 </div>
-                            </a>
+                                {% if button['#paragraph'].field_link.0. url %}
+                                </a>
+                            {% endif %}
                         </div>
                     {% endfor %}
                 {% endblock %}

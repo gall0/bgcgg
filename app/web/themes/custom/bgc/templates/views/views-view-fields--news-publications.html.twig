@@ -37,7 +37,7 @@
         <img class="card-img-top" src="{{ fields.field_news_thumbnail.content|render|striptags|trim }}" alt="">
         <div class="card-body">
             <h5 class="card-title">{{ fields.title.content }}</h5>
-            <p class="card-text">{{ fields.body.content }}</p>
+            <p class="card-text">{{ fields.body.content|render|striptags|trim }}</p>
         </div>
     </div>
 </a>

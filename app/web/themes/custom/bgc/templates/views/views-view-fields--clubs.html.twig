@@ -33,12 +33,16 @@
 #}
 
 <div class="row my-5">
-    <div class="col-sm-4">
-        {{ fields.field_club_photo.content }}
+    <div class="col-sm-12 pb-3 d-flex justify-content-center">
+        <a href=" {{ fields.view_node.content|render|striptags|trim }} ">
+            {{ fields.field_club_photo.content }}
+        </a>
     </div>
-    <div class="col-sm-4">
+    <div class="col-12">
+        <span class="h3">{{ fields.title.content }}</span>
+    </div>
+    <div class="col-sm-6">
         <p>
-            <span class="h3">{{ fields.title.content }}</span><br>
             {{ fields.field_address.content }}<br>
             {{ fields.field_phone.content }}<br>
             {{ fields.field_email.content }}
@@ -52,8 +56,8 @@
         </p>
 
     </div>
-    <div class="col-sm-4">
-        <span class="h4">Schools Served</span>
+    <div class="col-sm-6">
+        <div class="h4 text-primary pb-1">Schools Served</div>
         {{ fields.field_sc.content }}
     </div>
 </div>

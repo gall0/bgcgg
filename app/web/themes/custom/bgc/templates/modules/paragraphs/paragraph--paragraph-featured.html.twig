@@ -47,10 +47,10 @@
 <div class="{{ content.field_background_color|render|striptags|trim|split(' ')|last }} container-fluid">
 <div class="bgc-paragraph-featured {{ content.field_container|render|striptags|trim|split(' ')|last }}">
     <div class="row {{ reverseRow }}">
-        <div class="col-md-6 my-auto">
+        <div class="col-12 d-flex justify-content-center my-auto">
             {{ content.field_paragraph_featured_image }}
         </div>
-        <div class="col-md-6 text-center d-flex align-items-center">
+        <div class="col-12 text-center d-flex align-items-center">
                 {{ content.field_paragraph_text }}
         </div>
     </div>
