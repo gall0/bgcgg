@@ -2,5 +2,7 @@
 *.swp
 *.bak
 *.temp
+*.scssc
 files/
+app/web/themes/custom/bgc/.sass-cache/
 app/web/sites/development.services.yml
