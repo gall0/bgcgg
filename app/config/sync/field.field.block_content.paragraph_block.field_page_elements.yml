@@ -1,0 +1,69 @@
+uuid: 9f36aed3-2c3d-40d6-9e16-8bbac972bff6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.paragraph_block
+    - field.storage.block_content.field_page_elements
+    - paragraphs.paragraphs_type.image_button
+    - paragraphs.paragraphs_type.image_grid_item
+  module:
+    - entity_reference_revisions
+id: block_content.paragraph_block.field_page_elements
+field_name: field_page_elements
+entity_type: block_content
+bundle: paragraph_block
+label: 'Page Elements'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      image_button: image_button
+      image_grid_item: image_grid_item
+    target_bundles_drag_drop:
+      block_reference:
+        weight: 14
+        enabled: false
+      faqs:
+        weight: 15
+        enabled: false
+      image_button:
+        enabled: true
+        weight: 16
+      image_buttons:
+        weight: 17
+        enabled: false
+      image_grid:
+        weight: 18
+        enabled: false
+      image_grid_item:
+        enabled: true
+        weight: 19
+      link_list:
+        weight: 20
+        enabled: false
+      link_list_item:
+        weight: 21
+        enabled: false
+      paragraph:
+        weight: 22
+        enabled: false
+      paragraph_featured:
+        weight: 23
+        enabled: false
+      photo_collection:
+        weight: 24
+        enabled: false
+      slider:
+        weight: 25
+        enabled: false
+      youtube_video:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

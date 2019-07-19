@@ -10,7 +10,7 @@ _core:
   default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
 id: bgc_branding
 theme: bgc
-region: primary_menu
+region: header
 weight: -5
 provider: null
 plugin: system_branding_block

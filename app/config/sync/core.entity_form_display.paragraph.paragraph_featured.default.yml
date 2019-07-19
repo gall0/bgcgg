@@ -32,13 +32,13 @@ content:
     type: options_select
     region: content
   field_featured_image_position:
-    weight: 3
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
     region: content
   field_paragraph_featured_image:
-    weight: 4
+    weight: 3
     settings:
       preview_image_style: scale_sm
       progress_indicator: throbber
@@ -46,19 +46,14 @@ content:
     type: image_image
     region: content
   field_paragraph_text:
-    weight: 5
+    weight: 4
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
     region: content
-  field_text_color:
-    weight: 2
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
 hidden:
   created: true
+  field_text_color: true
   status: true

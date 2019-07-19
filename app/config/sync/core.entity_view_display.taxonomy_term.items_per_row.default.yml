@@ -1,0 +1,30 @@
+uuid: 859981a9-b419-4e22-9b2c-1e0c14d6af30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.items_per_row.field_classes
+    - taxonomy.vocabulary.items_per_row
+  module:
+    - text
+id: taxonomy_term.items_per_row.default
+targetEntityType: taxonomy_term
+bundle: items_per_row
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_classes:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

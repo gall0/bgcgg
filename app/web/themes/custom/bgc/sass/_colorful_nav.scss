@@ -13,9 +13,9 @@
     height: 30em;
 
     .title-gradient {
-        background-image: linear-gradient( rgba(255,0,0,0), rgba(0, 46, 75, 1));
-        
-        .title{
+        background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 46, 75, 1));
+
+        .title {
             color: white;
         }
     }
@@ -94,16 +94,20 @@
         }
     }
 
-    .about-us {
+    .home {
         background-color: var(--blue);
+    }
+
+    .about-us {
+        background-color: var(--deep-purple);
+    }
+
+    .youth-programs {
+        background-color: var(--primary);
     }
 
     .community-health-programs {
         background-color: var(--pink);
-    }
-
-    .youth-programs {
-        background-color: var(--deep-purple);
     }
 
     .news-and-events {
@@ -116,9 +120,23 @@
 
 }
 
+@include media-breakpoint-up(md) {
+    .home {
+        width: 10% !important;
+    }
+
+    .news-and-events,
+    .donations {
+        width: 50% !important;
+    }
+}
+
 .dropdown-menu {
+    margin-top: 0 !important;
+    border-top-width: 0 !important;
+
     li {
-        background-color: white;
+        background-color: rgb(184, 221, 254);
 
         .is-active {
             border-bottom: 2px solid var(--blue);

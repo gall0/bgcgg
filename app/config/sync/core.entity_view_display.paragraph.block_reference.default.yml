@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.block_reference.field_background_color
     - field.field.paragraph.block_reference.field_block_reference
     - paragraphs.paragraphs_type.block_reference
   module:
@@ -12,6 +13,15 @@ targetEntityType: paragraph
 bundle: block_reference
 mode: default
 content:
+  field_background_color:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
   field_block_reference:
     weight: 0
     label: hidden

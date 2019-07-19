@@ -44,4 +44,12 @@
     .card-img-overlay-slider {
         position: unset;
     }
+
+    .bgc-slider {    
+        .slider-message {
+            padding: 2em;
+            width: 100%;
+            background-color: var(--primary);
+        }
+    }
 }

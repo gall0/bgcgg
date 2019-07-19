@@ -1,0 +1,64 @@
+uuid: ba3fd7cb-831f-40b8-8cf4-603b23300d4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_grid_item
+    - paragraphs.paragraphs_type.image_grid
+    - paragraphs.paragraphs_type.image_grid_item
+  module:
+    - entity_reference_revisions
+id: paragraph.image_grid.field_grid_item
+field_name: field_grid_item
+entity_type: paragraph
+bundle: image_grid
+label: 'Grid Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      image_grid_item: image_grid_item
+    target_bundles_drag_drop:
+      block_reference:
+        weight: 13
+        enabled: false
+      image_button:
+        weight: 14
+        enabled: false
+      image_buttons:
+        weight: 15
+        enabled: false
+      image_grid:
+        weight: 16
+        enabled: false
+      image_grid_item:
+        enabled: true
+        weight: 17
+      link_list:
+        weight: 18
+        enabled: false
+      link_list_item:
+        weight: 19
+        enabled: false
+      paragraph:
+        weight: 20
+        enabled: false
+      paragraph_featured:
+        weight: 21
+        enabled: false
+      photo_collection:
+        weight: 22
+        enabled: false
+      slider:
+        weight: 23
+        enabled: false
+      youtube_video:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

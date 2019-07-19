@@ -1,0 +1,14 @@
+uuid: 1aaf21f2-02c9-4c23-bfb4-fa98432f608c
+langcode: en
+status: true
+dependencies: {  }
+id: fail
+label: Fail
+description: 'condition is false'
+type: show_message
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  message_type: status
+  message: 'condition is false'

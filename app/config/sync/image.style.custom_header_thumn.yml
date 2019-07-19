@@ -1,0 +1,23 @@
+uuid: 12f1cfab-0d63-455b-8e84-32bff95b5eb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: custom_header_thumn
+label: 'Custom - Header Thumbnail'
+effects:
+  d5a24c8f-64f2-4d07-86b8-54918b496d2c:
+    uuid: d5a24c8f-64f2-4d07-86b8-54918b496d2c
+    id: image_crop
+    weight: -9
+    data:
+      width: 300
+      height: 100
+      anchor: center-center
+  6ceb42ba-ae9b-4a11-ac75-10155fa21a6d:
+    uuid: 6ceb42ba-ae9b-4a11-ac75-10155fa21a6d
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true

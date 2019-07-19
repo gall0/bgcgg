@@ -1,14 +1,65 @@
-.bg-deep-purple{
-    background-color: #af8eb5!important;
-    color: black!important;
+// $theme-colors: (
+//   
+// "primary": #0093cf,
+// "primary-light": #76d8ff,
+// "primary-dark": #040d4d,
+// 
+// "secondary": #fff29b,
+// "secondary-light": #ffffcd,
+// "secondary-dark": #cbc06b,
+// 
+// "red": #b71c1c,
+// "red-light": #f05545,
+// "red-dark": #7f0000,
+// 
+// "pink": #880e4f,
+// "pink-light": #bc477b,
+// "pink-dark": #560027,
+// 
+// "purple": #4a148c,
+// "purple-light": #7c43bd,
+// "purple-dark": #311b92,
+// "deep-purple": #311b92, 
+// 
+// "blue": #0d47a1,
+// "blue-light": #5472d3,
+// "blue-dark": #002171,
+// 
+// "green": #1b5e20,
+// "green-light": #4c8c4a,
+// "green-dark": #003300,
+// 
+// "yellow": #f57f17,
+// "yellow-light": #ffb04c,
+// "yellow-dark": #bc5100,
+// 
+// "orange": #e65100,
+// "orange-light": #ff833a,
+// "orange-dark": #bf360c,
+// "deep-orange": #bf360c,
+// 
+// );
+.bg-red,.bg-pink,.bg-purple,.bg-blue
+
+.bg-red{}
+
+.bg-pink{}
+
+.bg-purple, .bg-deep-purple{
+    color: white!important;
 }
 
-.bg-blue {
-    background-color: #0069c0!important;
+//.bg-blue {
+//    background-color: #0069c0!important;
+//    color: white;
+//}
+//.bg-deep-blue{
+//    background-color: #003c6d!important;
+//}
+.bg-blue{
     color: white;
 }
-
-.bg-light-blue {
+.bg-light-blue, bg-blue-light {
     background-color: #90caf9!important;
     color: black;
 
@@ -25,6 +76,16 @@
     background-color: #a5d6a7!important;
 }
 
+.bg-yellow{}
+
+.bg-orange{}
+
+
+
+
+
+
+// this needs to be switched out
 .bg-teal{
     background-color: #b2fef7!important;
 }

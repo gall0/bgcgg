@@ -1,0 +1,16 @@
+uuid: e5d48eb5-0aaf-409e-9c64-831255c42ef4
+langcode: en
+status: true
+dependencies: {  }
+id: news_to_pdf
+label: 'News to PDF'
+description: 'Links news to pdf directly'
+reacts_on: entity_is_viewed
+target_entity_type: node
+target_bundle: news_publication
+items:
+  node_to_pdf_redirect_:
+    id: node_to_pdf_redirect_
+    type: condition
+    weight: -9
+tags: {  }

@@ -22,6 +22,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /home
+    pages: "/home\r\n/board-of-directors"
     negate: true
     context_mapping: {  }

@@ -1,0 +1,8 @@
+uuid: d10eedb4-b5b3-4ab6-ac15-f02c337b043a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Image Style'
+vid: image_style
+description: ''
+weight: 0

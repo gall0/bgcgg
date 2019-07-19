@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.paragraph.field_background_color
     - field.field.paragraph.paragraph.field_container
     - field.field.paragraph.paragraph.field_image_position
+    - field.field.paragraph.paragraph.field_image_size
     - field.field.paragraph.paragraph.field_inline_image
     - field.field.paragraph.paragraph.field_paragraph_text
     - field.field.paragraph.paragraph.field_text_color
@@ -20,7 +21,7 @@ bundle: paragraph
 mode: default
 content:
   field_background_color:
-    weight: 2
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     type: options_select
@@ -37,8 +38,14 @@ content:
     third_party_settings: {  }
     type: options_buttons
     region: content
-  field_inline_image:
+  field_image_size:
     weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_inline_image:
+    weight: 2
     settings:
       progress_indicator: throbber
       preview_image_style: scale_sm
@@ -53,12 +60,7 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
-  field_text_color:
-    weight: 1
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
 hidden:
   created: true
+  field_text_color: true
   status: true

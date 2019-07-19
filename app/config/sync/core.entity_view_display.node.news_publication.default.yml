@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.news_publication.field_news_thumbnail
     - field.field.node.news_publication.field_page_elements
     - field.field.node.news_publication.field_pdf
+    - field.field.node.news_publication.field_show_pdf_only
     - node.type.news_publication
   module:
     - entity_reference_revisions
@@ -25,6 +26,16 @@ content:
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
     region: content
+  field_show_pdf_only:
+    type: boolean
+    weight: 1
+    region: content
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
 hidden:
   body: true
   field_news_thumbnail: true

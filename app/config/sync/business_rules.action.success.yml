@@ -1,0 +1,14 @@
+uuid: 48080841-c87a-423e-a29b-6e07b36d51db
+langcode: en
+status: true
+dependencies: {  }
+id: success
+label: Success
+description: 'displays success message'
+type: show_message
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  message_type: status
+  message: 'The comparison is true.'

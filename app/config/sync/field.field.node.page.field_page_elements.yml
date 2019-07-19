@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_page_elements
     - node.type.page
     - paragraphs.paragraphs_type.image_button
+    - paragraphs.paragraphs_type.image_grid_item
   module:
     - entity_reference_revisions
 id: node.page.field_page_elements
@@ -24,6 +25,7 @@ settings:
     negate: 1
     target_bundles:
       image_button: image_button
+      image_grid_item: image_grid_item
     target_bundles_drag_drop:
       image_button:
         enabled: true
@@ -48,5 +50,20 @@ settings:
         enabled: false
       youtube_video:
         weight: 14
+        enabled: false
+      faqs:
+        weight: 15
+        enabled: false
+      image_grid:
+        weight: 18
+        enabled: false
+      image_grid_item:
+        enabled: true
+        weight: 19
+      link_list:
+        weight: 20
+        enabled: false
+      link_list_item:
+        weight: 21
         enabled: false
 field_type: entity_reference_revisions

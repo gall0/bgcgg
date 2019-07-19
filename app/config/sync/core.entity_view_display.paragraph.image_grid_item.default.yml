@@ -1,0 +1,56 @@
+uuid: 890af62c-f971-430b-8e7d-54b4c7bfc3ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_grid_item.field_button_image
+    - field.field.paragraph.image_grid_item.field_image_description
+    - field.field.paragraph.image_grid_item.field_image_title
+    - field.field.paragraph.image_grid_item.field_link
+    - paragraphs.paragraphs_type.image_grid_item
+  module:
+    - image
+    - link
+id: paragraph.image_grid_item.default
+targetEntityType: paragraph
+bundle: image_grid_item
+mode: default
+content:
+  field_button_image:
+    weight: 1
+    label: inline
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_image_description:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image_title:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

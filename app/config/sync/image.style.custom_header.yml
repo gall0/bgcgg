@@ -1,0 +1,23 @@
+uuid: e5c6203c-b463-488c-95ae-4103d72e1f31
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: custom_header
+label: 'Custom - Header'
+effects:
+  3d06a258-b6b5-4e27-8de5-b2335123c6e4:
+    uuid: 3d06a258-b6b5-4e27-8de5-b2335123c6e4
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true
+  5e22f093-227d-4260-9f81-c67613679cbd:
+    uuid: 5e22f093-227d-4260-9f81-c67613679cbd
+    id: image_crop
+    weight: 2
+    data:
+      width: 2400
+      height: 800
+      anchor: center-center

@@ -1,0 +1,13 @@
+uuid: 8afba654-a8c5-4f14-b8e5-11fa2547ca01
+langcode: en
+status: true
+dependencies: {  }
+id: redirect_to_pdf
+label: 'Redirect to PDF'
+description: 'This will redirect to pdf. '
+type: page_redirect
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  url: '[node:field_pdf:entity:url]'

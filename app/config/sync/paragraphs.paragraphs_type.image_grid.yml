@@ -1,0 +1,9 @@
+uuid: 62a4e148-14b9-468f-a82d-f7209ec45dc5
+langcode: en
+status: true
+dependencies: {  }
+id: image_grid
+label: 'Image Grid'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

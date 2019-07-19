@@ -1,0 +1,8 @@
+uuid: e0645769-7d94-4b60-aa69-7e28efdde404
+langcode: en
+status: true
+dependencies: {  }
+name: 'Items Per Row'
+vid: items_per_row
+description: ''
+weight: 0

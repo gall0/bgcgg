@@ -2,48 +2,44 @@
 
 // Your variable overrides
 $theme-colors: (
-  "primary": #0093cf,
-  "primary-light": #76d8ff,
-  "primary-dark": #004c6a, 
-  "secondary": #fff29b,
-  "secondary-light": #ffffcd,
-  "secondary-dark": #cbc06b,
+  
+"primary": #0093cf,
+"primary-light": #76d8ff,
+"primary-dark": #040d4d,
 
-  // Custom Variants 800
-  //  "red": #c62828,
-  //  "pink": #ad1457,
-  //  "purple": #6a1b9a,
-  //  "deep-purple": #4527a0,
-  //  "indigo": #283593,
-  //  "blue": #1565c0,
-  //  "light-blue": #0277bd,
-  //  "cyan": #00838f,
-  //  "teal": #00695c,
-  //  "green": #2e7d32,
-  //  "light-green": #558b2f,
-  //  "lime": #9e9d24,
-  //  "yellow": #f9a825,
-  //  "amber": #ff8f00,
-  //  "orange": #ef6c00,
-  //  "deep-orange": #d84315,
+"secondary": #fff29b,
+"secondary-light": #ffffcd,
+"secondary-dark": #cbc06b,
 
-  // Custom Variants 900
-  "red": #b71c1c,
-  "pink": #880e4f,
-  "purple": #4a148c,
-  "deep-purple": #311b92,
-  "indigo": #1a237e,
-  "blue": #0d47a1,
-  "light-blue": #01579b,
-  "cyan": #006064,
-  "teal": #004d40,
-  "green": #1b5e20,
-  "light-green": #33691e,
-  "lime": #827717,
-  "yellow": #f57f17,
-  "amber": #ff6f00,
-  "orange": #e65100,
-  "deep-orange": #bf360c 
+"red": #b71c1c,
+"red-light": #ffcdd2,
+"red-dark": #7f0000,
+
+"pink": #880e4f,
+"pink-light": #f8bbd0,
+"pink-dark": #560027,
+
+"purple": #4a148c,
+"purple-light": #e1bee7,
+"purple-dark": #311b92,
+"deep-purple": #311b92, 
+
+"blue": #0d47a1,
+"blue-light": #bbdefb,
+"blue-dark": #002171,
+
+"green": #1b5e20,
+"green-light": #c8e6c9,
+"green-dark": #003300,
+
+"yellow": #f57f17,
+"yellow-light": #fff9c4,
+"yellow-dark": #bc5100,
+
+"orange": #e65100,
+"orange-light": #ffe0b2,
+"orange-dark": #bf360c,
+"deep-orange": #bf360c,
 
 );
 
@@ -72,6 +68,15 @@ $theme-colors: (
 //), $theme-colors);
 // stylelint-enable
 
+
+
+// Custom Variants 900
+//  "indigo": #1a237e,
+//  "light-blue": #01579b,
+//  "cyan": #006064,
+//  "teal": #004d40,
+//  "light-green": #33691e,
+//  "amber": #ff6f00,
 
 
 

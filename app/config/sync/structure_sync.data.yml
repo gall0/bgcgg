@@ -1,0 +1,764 @@
+taxonomies:
+  bac:
+    -
+      vid: bac
+      tid: '29'
+      langcode: en
+      name: Amber
+      description__value: null
+      description__format: null
+      weight: '30'
+      parent: '0'
+      uuid: 3a5f21c7-cd69-4ead-9d62-f3afffa6a528
+      field_classes:
+        -
+          value: bg-amber
+    -
+      vid: bac
+      tid: '8'
+      langcode: en
+      name: Blue
+      description__value: null
+      description__format: null
+      weight: '23'
+      parent: '0'
+      uuid: 11d43e4b-ec5a-43d8-8bd2-f29f3174171f
+      field_classes:
+        -
+          value: bg-blue
+    -
+      vid: bac
+      tid: '32'
+      langcode: en
+      name: 'Blue Alpha'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '8'
+      uuid: a833b403-d003-4278-99ca-fb3738d6b64e
+      field_classes:
+        -
+          value: blue-alpha
+    -
+      vid: bac
+      tid: '22'
+      langcode: en
+      name: 'Blue Light'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '8'
+      uuid: 7b1accbb-7574-4a85-a7d0-de22b9051643
+      field_classes:
+        -
+          value: bg-blue-light
+    -
+      vid: bac
+      tid: '23'
+      langcode: en
+      name: Cyan
+      description__value: null
+      description__format: null
+      weight: '31'
+      parent: '0'
+      uuid: 0be747b8-49ea-4a12-b134-e5b653315c39
+      field_classes:
+        -
+          value: bg-cyan
+    -
+      vid: bac
+      tid: '31'
+      langcode: en
+      name: 'Deep Orange'
+      description__value: null
+      description__format: null
+      weight: '27'
+      parent: '0'
+      uuid: 3e18120a-766a-4d20-9121-6997b84eaf00
+      field_classes:
+        -
+          value: bg-deep-orange
+    -
+      vid: bac
+      tid: '19'
+      langcode: en
+      name: 'Deep Purple'
+      description__value: null
+      description__format: null
+      weight: '28'
+      parent: '0'
+      uuid: fc6f1251-cc2b-4050-a0b1-5bce52dda3c4
+      field_classes:
+        -
+          value: bg-deep-purple
+    -
+      vid: bac
+      tid: '10'
+      langcode: en
+      name: Green
+      description__value: null
+      description__format: null
+      weight: '24'
+      parent: '0'
+      uuid: 245872b8-c51d-4259-82c7-d1c65ad792a2
+      field_classes:
+        -
+          value: bg-green
+    -
+      vid: bac
+      tid: '33'
+      langcode: en
+      name: 'Green Alpha'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '10'
+      uuid: 7ab83f30-95e7-48de-8c74-b64a3d288b80
+      field_classes:
+        -
+          value: green-alpha
+    -
+      vid: bac
+      tid: '26'
+      langcode: en
+      name: 'Green Light'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '10'
+      uuid: ffb14515-51be-4d53-a40f-8570803e6122
+      field_classes:
+        -
+          value: bg-green-light
+    -
+      vid: bac
+      tid: '20'
+      langcode: en
+      name: Indigo
+      description__value: null
+      description__format: null
+      weight: '32'
+      parent: '0'
+      uuid: acb6b14f-2bb1-4af3-b540-f107fc459b84
+      field_classes:
+        -
+          value: bg-indigo
+    -
+      vid: bac
+      tid: '27'
+      langcode: en
+      name: Lime
+      description__value: null
+      description__format: null
+      weight: '33'
+      parent: '0'
+      uuid: 12f5175e-5841-4248-aedf-272fe8d4dfcb
+      field_classes:
+        -
+          value: bg-lime
+    -
+      vid: bac
+      tid: '9'
+      langcode: en
+      name: Orange
+      description__value: null
+      description__format: null
+      weight: '26'
+      parent: '0'
+      uuid: b610f45f-fcbc-499d-9189-db0568f340e2
+      field_classes:
+        -
+          value: bg-orange
+    -
+      vid: bac
+      tid: '34'
+      langcode: en
+      name: 'Orange Alpha'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '9'
+      uuid: a4c5b967-00cc-405a-98cf-837261716993
+      field_classes:
+        -
+          value: orange-alpha
+    -
+      vid: bac
+      tid: '61'
+      langcode: en
+      name: 'Orange Light'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '9'
+      uuid: 3c7b1561-513c-44a8-a6cf-dd501efe28e0
+      field_classes:
+        -
+          value: bg-orange-light
+    -
+      vid: bac
+      tid: '17'
+      langcode: en
+      name: Pink
+      description__value: null
+      description__format: null
+      weight: '21'
+      parent: '0'
+      uuid: 49062ef5-4ceb-43b3-bb7f-2632d5a2052c
+      field_classes:
+        -
+          value: bg-pink
+    -
+      vid: bac
+      tid: '56'
+      langcode: en
+      name: 'Pink Alpha'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '17'
+      uuid: b331bdf2-11c4-4f94-8c8b-85321c348cdd
+      field_classes:
+        -
+          value: pink-alpha
+    -
+      vid: bac
+      tid: '55'
+      langcode: en
+      name: 'Pink Light'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '17'
+      uuid: 2375d369-31b6-44c1-a9cf-d63cac6943e9
+      field_classes:
+        -
+          value: bg-pink-light
+    -
+      vid: bac
+      tid: '48'
+      langcode: en
+      name: Primary
+      description__value: null
+      description__format: null
+      weight: '18'
+      parent: '0'
+      uuid: d4552004-2316-4818-86f6-5ad48f4267ec
+      field_classes:
+        -
+          value: bg-primary
+    -
+      vid: bac
+      tid: '50'
+      langcode: en
+      name: 'Primary Alpha'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '48'
+      uuid: 5c0392bd-2ee0-45e4-b978-a94c112046b2
+      field_classes:
+        -
+          value: bg-primary-alpha
+    -
+      vid: bac
+      tid: '49'
+      langcode: en
+      name: 'Primary Light'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '48'
+      uuid: a9dafc3f-f3eb-432f-9d00-f9ea17122264
+      field_classes:
+        -
+          value: bg-primary-light
+    -
+      vid: bac
+      tid: '18'
+      langcode: en
+      name: Purple
+      description__value: null
+      description__format: null
+      weight: '22'
+      parent: '0'
+      uuid: 7ad0e8c1-4ea8-4263-86df-d740428e90e4
+      field_classes:
+        -
+          value: bg-purple
+    -
+      vid: bac
+      tid: '58'
+      langcode: en
+      name: 'Purple Alpha'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '18'
+      uuid: 013cc5c3-3ffa-457b-87d4-00b0bbefdee5
+      field_classes:
+        -
+          value: purple-alpha
+    -
+      vid: bac
+      tid: '57'
+      langcode: en
+      name: 'Purple Light'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '18'
+      uuid: 69d902ab-ac43-489c-85b2-d255f807c20e
+      field_classes:
+        -
+          value: bg-purple-light
+    -
+      vid: bac
+      tid: '16'
+      langcode: en
+      name: Red
+      description__value: null
+      description__format: null
+      weight: '20'
+      parent: '0'
+      uuid: e46d7be7-afe1-4540-bcd1-2cba57b2637f
+      field_classes:
+        -
+          value: bg-red
+    -
+      vid: bac
+      tid: '11'
+      langcode: en
+      name: 'Red Alpha'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '16'
+      uuid: cdeb7356-b161-4bf0-a625-17987db11145
+      field_classes:
+        -
+          value: red-alpha
+    -
+      vid: bac
+      tid: '54'
+      langcode: en
+      name: 'Red Light'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '16'
+      uuid: e414790c-7089-4338-b57b-215b8b752d6f
+      field_classes:
+        -
+          value: bg-red-light
+    -
+      vid: bac
+      tid: '51'
+      langcode: en
+      name: Secondary
+      description__value: null
+      description__format: null
+      weight: '19'
+      parent: '0'
+      uuid: 8961e3f3-7022-46d6-98ea-6a802e87da24
+      field_classes:
+        -
+          value: bg-secondary
+    -
+      vid: bac
+      tid: '53'
+      langcode: en
+      name: 'Secondary Alpha'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '51'
+      uuid: d1d418d9-6ff1-433b-a4ad-e2a55ae9f1ea
+      field_classes:
+        -
+          value: alpha-secondary
+    -
+      vid: bac
+      tid: '52'
+      langcode: en
+      name: 'Secondary Light'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '51'
+      uuid: 1bcdcf15-ad3f-4358-9852-d615bd00386d
+      field_classes:
+        -
+          value: bg-secondary-light
+    -
+      vid: bac
+      tid: '24'
+      langcode: en
+      name: Teal
+      description__value: null
+      description__format: null
+      weight: '29'
+      parent: '0'
+      uuid: dd1a625d-418c-4c09-9c68-7d56b4eb628e
+      field_classes:
+        -
+          value: bg-teal
+    -
+      vid: bac
+      tid: '28'
+      langcode: en
+      name: Yellow
+      description__value: null
+      description__format: null
+      weight: '25'
+      parent: '0'
+      uuid: e6e2a58c-d004-4d9e-9161-69aa1949d350
+      field_classes:
+        -
+          value: bg-yellow
+    -
+      vid: bac
+      tid: '60'
+      langcode: en
+      name: 'Yellow Alpha'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '28'
+      uuid: 15c7128a-9775-4f44-b682-e47af3963291
+      field_classes:
+        -
+          value: yellow-alpha
+    -
+      vid: bac
+      tid: '59'
+      langcode: en
+      name: 'Yellow Light'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '28'
+      uuid: 50c93213-8d7b-460a-a48b-ecdc175679e2
+      field_classes:
+        -
+          value: bg-yellow-light
+  button_color:
+    -
+      vid: button_color
+      tid: '2'
+      langcode: en
+      name: Dark
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: aa85f49f-6169-47c2-9eea-e1f777b3b393
+      field_classes:
+        -
+          value: btn-dark
+    -
+      vid: button_color
+      tid: '4'
+      langcode: en
+      name: 'Deep Purple'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 0e9e2cdb-2935-486b-8f18-92f5ceba9788
+      field_classes:
+        -
+          value: btn-deep-purple
+    -
+      vid: button_color
+      tid: '3'
+      langcode: en
+      name: Light
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 3bc7fd05-07c0-4051-8ea2-6a4eef14f33b
+      field_classes:
+        -
+          value: btn-light
+    -
+      vid: button_color
+      tid: '1'
+      langcode: en
+      name: Primary
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 55ed669a-c40c-4737-b2ed-f981bb0bf7f7
+      field_classes:
+        -
+          value: btn-primary
+  c:
+    -
+      vid: c
+      tid: '37'
+      langcode: en
+      name: Half
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 56d925fa-e1ae-4d9b-9ff8-986e75689173
+      field_classes:
+        -
+          value: col-sm-6
+    -
+      vid: c
+      tid: '39'
+      langcode: en
+      name: Quarter
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 957dbd54-16ef-4640-ab7b-9955826028f1
+      field_classes:
+        -
+          value: 'col-6 col-md-3'
+    -
+      vid: c
+      tid: '38'
+      langcode: en
+      name: Third
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1ecb74dd-8d04-4373-aec5-1e9d81377e90
+      field_classes:
+        -
+          value: col-4
+  container_options:
+    -
+      vid: container_options
+      tid: '15'
+      langcode: en
+      name: Column
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 346b47e0-8158-4f75-a243-283f8c3d84a8
+      field_classes:
+        -
+          value: container
+    -
+      vid: container_options
+      tid: '14'
+      langcode: en
+      name: Fluid
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 469cedca-5e4d-4309-9393-31ebf659d42e
+      field_classes:
+        -
+          value: container-fluid
+  image_position:
+    -
+      vid: image_position
+      tid: '12'
+      langcode: en
+      name: Left
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bb66f14b-2b8c-439b-a82c-c8974cd469d9
+      field_classes:
+        -
+          value: float-left
+    -
+      vid: image_position
+      tid: '13'
+      langcode: en
+      name: Right
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e639eca8-2517-4282-9fac-0e3eb7abeced
+      field_classes:
+        -
+          value: float-right
+  image_style:
+    -
+      vid: image_style
+      tid: '41'
+      langcode: en
+      name: Landscape
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 3e1df029-7e2a-4c9a-8d5f-bec70348610d
+      field_classes:
+        -
+          value: landscape_md
+    -
+      vid: image_style
+      tid: '42'
+      langcode: en
+      name: Scale
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 0568851b-4b85-455c-8830-714785c62a69
+      field_classes:
+        -
+          value: scale_md
+    -
+      vid: image_style
+      tid: '40'
+      langcode: en
+      name: Square
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 933f20dd-7483-451c-ba56-bb31412fffcd
+      field_classes:
+        -
+          value: crop_md
+  items_per_row:
+    -
+      vid: items_per_row
+      tid: '44'
+      langcode: en
+      name: '2'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 505a61f7-1554-4ef8-9c93-7cb4f81680ef
+      field_classes:
+        -
+          value: col-6
+    -
+      vid: items_per_row
+      tid: '45'
+      langcode: en
+      name: '3'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 656d83fd-9293-490c-9d82-52e131894160
+      field_classes:
+        -
+          value: col-md-4
+    -
+      vid: items_per_row
+      tid: '46'
+      langcode: en
+      name: '4'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 34990cd7-ca65-43ea-872c-0d02a6bb31ca
+      field_classes:
+        -
+          value: 'col-sm-2 col-md-3'
+    -
+      vid: items_per_row
+      tid: '47'
+      langcode: en
+      name: '6'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 61644225-faf6-4c91-8a0e-344305b71e16
+      field_classes:
+        -
+          value: 'col-sm-6 col-md-4 col-lg-3 col-xl-2'
+    -
+      vid: items_per_row
+      tid: '43'
+      langcode: en
+      name: Auto
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8ffe944e-e0ac-41f1-adf3-d45db71efc06
+      field_classes:
+        -
+          value: col
+  text_color:
+    -
+      vid: text_color
+      tid: '36'
+      langcode: en
+      name: Dark
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c4dc2c7c-9362-4a79-a341-b3ae3b9d8f64
+      field_classes:
+        -
+          value: text-dark
+    -
+      vid: text_color
+      tid: '35'
+      langcode: en
+      name: Light
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 47580131-297f-4400-b475-5172c55a207f
+      field_classes:
+        -
+          value: text-light
+  text_position:
+    -
+      vid: text_position
+      tid: '6'
+      langcode: en
+      name: Center
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 3c338a5a-88c3-4ec6-9280-2c6a552797a5
+      field_classes:
+        -
+          value: text-center
+    -
+      vid: text_position
+      tid: '5'
+      langcode: en
+      name: Left
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7b24b933-f394-445d-b12b-ac4de217fc53
+      field_classes:
+        -
+          value: text-left
+    -
+      vid: text_position
+      tid: '7'
+      langcode: en
+      name: Right
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bb0dc5bd-c901-4f19-8896-30d7719301c8
+      field_classes:
+        -
+          value: text-right

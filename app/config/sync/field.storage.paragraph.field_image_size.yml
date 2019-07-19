@@ -1,0 +1,20 @@
+uuid: 5ea8d114-e9c1-470b-b3e5-b1d4fd964f85
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+id: paragraph.field_image_size
+field_name: field_image_size
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

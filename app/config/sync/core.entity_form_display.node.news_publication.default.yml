@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.news_publication.field_news_thumbnail
     - field.field.node.news_publication.field_page_elements
     - field.field.node.news_publication.field_pdf
+    - field.field.node.news_publication.field_show_pdf_only
     - image.style.scale_sm
     - node.type.news_publication
   module:
@@ -68,6 +69,13 @@ content:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
+    region: content
+  field_show_pdf_only:
+    weight: 27
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
     region: content
   moderation_state:
     type: moderation_state_default

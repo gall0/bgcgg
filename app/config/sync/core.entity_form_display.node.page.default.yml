@@ -5,12 +5,15 @@ dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_attachments
+    - field.field.node.page.field_header_back
     - field.field.node.page.field_page_elements
+    - image.style.landscape_sm
     - node.type.page
     - workflows.workflow.status
   module:
     - content_moderation
     - file
+    - image
     - paragraphs
     - path
 id: node.page.default
@@ -20,20 +23,28 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   field_attachments:
-    weight: 26
+    weight: 10
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
     region: content
+  field_header_back:
+    weight: 1
+    settings:
+      preview_image_style: landscape_sm
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
   field_page_elements:
     type: paragraphs
-    weight: 1
+    weight: 2
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -51,13 +62,13 @@ content:
     region: content
   moderation_state:
     type: moderation_state_default
-    weight: 8
+    weight: 9
     settings: {  }
     region: content
     third_party_settings: {  }
   path:
     type: path
-    weight: 7
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -65,20 +76,20 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 5
+    weight: 6
     region: content
     third_party_settings: {  }
   status:
     type: options_buttons
     settings: {  }
-    weight: 2
+    weight: 3
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 7
     region: content
     third_party_settings: {  }
   title:
@@ -91,7 +102,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 4
     settings:
       match_operator: CONTAINS
       size: 60

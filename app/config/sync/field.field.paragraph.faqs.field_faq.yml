@@ -1,0 +1,22 @@
+uuid: eda872a8-07c9-4db6-a516-c628abb04f5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_faq
+    - paragraphs.paragraphs_type.faqs
+  module:
+    - faqfield
+id: paragraph.faqs.field_faq
+field_name: field_faq
+entity_type: paragraph
+bundle: faqs
+label: FAQ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  default_format: plain_text
+field_type: faqfield
