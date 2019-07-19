@@ -22,6 +22,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/home\r\n/board-of-directors"
+    pages: "/home\r\n/board-of-directors\r\n/clubs/*\r\n/find-a-club\r\n/news"
     negate: true
     context_mapping: {  }

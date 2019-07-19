@@ -1,0 +1,31 @@
+uuid: f2241419-7b81-410a-bffa-fb79776248af
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:paragraph_block:c95c342b-c08b-4072-bcb1-db478bb165c8'
+  module:
+    - block_content
+    - system
+  theme:
+    - bgc
+id: newsheader
+theme: bgc
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:c95c342b-c08b-4072-bcb1-db478bb165c8'
+settings:
+  id: 'block_content:c95c342b-c08b-4072-bcb1-db478bb165c8'
+  label: 'News Header'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /news
+    negate: false
+    context_mapping: {  }
