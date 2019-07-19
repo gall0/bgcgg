@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.body
     - field.storage.node.field_news_thumbnail
+    - image.style.crop_md
     - image.style.crop_sm
     - node.type.news_publication
   module:
@@ -431,7 +432,7 @@ display:
           click_sort_column: target_id
           type: image_url
           settings:
-            image_style: crop_sm
+            image_style: crop_md
           group_column: ''
           group_columns: {  }
           group_rows: true
