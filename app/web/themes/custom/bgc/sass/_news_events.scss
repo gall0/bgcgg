@@ -17,3 +17,14 @@
     font-weight: bold;
     font-size: 1.2em;
 }
+
+.news-item{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    a{
+        display:flex;
+        justify-content: center;
+    }
+}
