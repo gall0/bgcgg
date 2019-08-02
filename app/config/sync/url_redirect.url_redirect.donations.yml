@@ -1,0 +1,15 @@
+uuid: e94c3fef-81dc-4ee9-8eb3-6004304748b9
+langcode: en
+status: '1'
+dependencies: {  }
+id: donations
+label: Donations
+message: 'No'
+path: /donations
+redirect_path: 'https://bgcgg.z2systems.com/np/clients/bgcgg/donation.jsp'
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
