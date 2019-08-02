@@ -19,5 +19,5 @@ tags: {  }
 settings:
   field: field_show_pdf_only
   data_to_compare: current_data
-  operator: '>'
-  value_to_compare: '0'
+  operator: contains
+  value_to_compare: '1'
