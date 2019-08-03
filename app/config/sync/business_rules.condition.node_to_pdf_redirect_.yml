@@ -10,15 +10,11 @@ description: 'If the option is selected, show PDF only.'
 target_entity_type: node
 target_bundle: news_publication
 success_items:
-  success:
-    id: success
+  redirect_to_pdf:
+    id: redirect_to_pdf
     type: action
     weight: -9
-fail_items:
-  fail:
-    id: fail
-    type: action
-    weight: -8
+fail_items: {  }
 tags: {  }
 settings:
   field: field_show_pdf_only
