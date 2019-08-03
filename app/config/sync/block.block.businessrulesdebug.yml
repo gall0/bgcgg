@@ -1,0 +1,20 @@
+uuid: cd8295ff-e650-439b-8956-402b6f286d71
+langcode: en
+status: true
+dependencies:
+  module:
+    - business_rules
+  theme:
+    - bgc
+id: businessrulesdebug
+theme: bgc
+region: content
+weight: -6
+provider: null
+plugin: business_rules_debug_block
+settings:
+  id: business_rules_debug_block
+  label: 'Business rules debug'
+  provider: business_rules
+  label_display: '0'
+visibility: {  }

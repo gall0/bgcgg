@@ -12,7 +12,7 @@ dependencies:
 id: newsheader
 theme: bgc
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: 'block_content:c95c342b-c08b-4072-bcb1-db478bb165c8'
 settings:
