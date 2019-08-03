@@ -14,7 +14,11 @@ success_items:
     id: redirect_to_pdf
     type: action
     weight: -9
-fail_items: {  }
+fail_items:
+  fail:
+    id: fail
+    type: action
+    weight: -8
 tags: {  }
 settings:
   field: field_show_pdf_only
