@@ -13,37 +13,6 @@
     }
 }
 
-.red-alpha {
-    background-color: rgba(183,28,28, .5);
-
-    &:hover {
-        background-color: rgba(183,28,28, .3);
-    }
-}
-
-.blue-alpha {
-    background-color: rgba(13,71,161, .5);
-
-    &:hover {
-        background-color: rgba(13,71,161, .3);
-    }
-}
-
-.green-alpha {
-    background-color: rgba(27,94,32, .5);
-
-    &:hover {
-        background-color: rgba(27,94,32, .3);
-    }
-}
-
-.orange-alpha {
-    background-color: rgba(230,81,0, .5);
-
-    &:hover {
-        background-color: rgba(230,81,0, .3);
-    }
-}
 .title-overlay {
     width: 100%;
     height: 100%;
