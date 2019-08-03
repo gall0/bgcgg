@@ -117,6 +117,9 @@
             },
             "drupal/entity_reference_revisions": {
                 "Fix entity reference error after update to 8.7.1": "https://www.drupal.org/files/issues/2018-11-26/hastranslation-on-null-3016233-2.patch"
+            },
+            "drupal/business_rules": {
+                "Variables Returning Null": "https://www.drupal.org/files/issues/2019-05-10/variables-returning-null-3016888-24.patch"
             }
         },        
         "drupal-scaffold": {
