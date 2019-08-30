@@ -1,6 +1,6 @@
 uuid: 8e5919c1-e8fc-4c6c-8e2e-57f4ec849d99
 langcode: en
-status: true
+status: false
 dependencies: {  }
 name: Editor
 format: editor

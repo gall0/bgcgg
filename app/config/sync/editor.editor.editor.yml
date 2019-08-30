@@ -1,6 +1,6 @@
 uuid: f070887b-0fdd-449e-b6e8-dd20ffdc29ef
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - filter.format.editor
