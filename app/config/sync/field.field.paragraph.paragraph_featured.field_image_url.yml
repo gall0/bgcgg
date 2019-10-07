@@ -1,0 +1,23 @@
+uuid: 2cd1f26e-9d37-4b9b-acb4-e93076752520
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_url
+    - paragraphs.paragraphs_type.paragraph_featured
+  module:
+    - link
+id: paragraph.paragraph_featured.field_image_url
+field_name: field_image_url
+entity_type: paragraph
+bundle: paragraph_featured
+label: 'Image URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link
