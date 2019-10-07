@@ -20,3 +20,7 @@ This needs work so that link list can be splittable into columns.
 .bgc-link-list {
     padding: 2em;
 }
+
+.list-group-item {
+    background-color: unset!important;
+}
