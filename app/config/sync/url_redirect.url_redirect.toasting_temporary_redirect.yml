@@ -1,0 +1,15 @@
+uuid: 6eaac131-79ae-4b9e-8779-9a56162d3a92
+langcode: en
+status: '1'
+dependencies: {  }
+id: toasting_temporary_redirect
+label: 'toasting temporary redirect'
+message: 'No'
+path: toasting-great-futures
+redirect_path: toasting-great-futures-october-12-2019
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
