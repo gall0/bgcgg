@@ -225,7 +225,7 @@ handlers:
         - completed
       to_mail: _default
       to_options: {  }
-      cc_mail: ''
+      cc_mail: rgillerman@bgcgg.org
       cc_options: {  }
       bcc_mail: ''
       bcc_options: {  }
@@ -233,7 +233,7 @@ handlers:
       from_options: {  }
       from_name: '[webform_submission:values:name:raw]'
       subject: '[webform_submission:values:subject:raw]'
-      body: '[webform_submission:values:message:value]'
+      body: _default
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
