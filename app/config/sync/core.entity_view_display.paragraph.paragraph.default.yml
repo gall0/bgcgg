@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.paragraph.field_background_color
+    - field.field.paragraph.paragraph.field_card
     - field.field.paragraph.paragraph.field_container
     - field.field.paragraph.paragraph.field_image_position
     - field.field.paragraph.paragraph.field_image_size
@@ -30,6 +31,16 @@ content:
       view_mode: default
     third_party_settings: {  }
     type: entity_reference_entity_view
+    region: content
+  field_card:
+    weight: 8
+    label: hidden
+    settings:
+      format: yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
     region: content
   field_container:
     weight: 3

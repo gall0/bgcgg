@@ -115,9 +115,6 @@
         "patches": {
             "drupal/colorbox": {
                 "Colorbox plugin fix for Drush v9": "https://www.drupal.org/files/issues/2018-11-01/colorbox-plugin-not-defined-2954756.patch"     
-            },
-            "drupal/entity_reference_revisions": {
-                "Fix entity reference error after update to 8.7.1": "https://www.drupal.org/files/issues/2018-11-26/hastranslation-on-null-3016233-2.patch"
             }
         },        
         "drupal-scaffold": {

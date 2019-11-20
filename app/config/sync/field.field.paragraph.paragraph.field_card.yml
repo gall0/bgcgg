@@ -1,0 +1,23 @@
+uuid: 089e24d8-8755-42c9-9cdc-4839263bd141
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card
+    - paragraphs.paragraphs_type.paragraph
+id: paragraph.paragraph.field_card
+field_name: field_card
+entity_type: paragraph
+bundle: paragraph
+label: 'Card Layout'
+description: 'This adds a white card background.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
