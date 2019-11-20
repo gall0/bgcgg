@@ -205,6 +205,39 @@
 // ========
 // Green
 // ========
+
+.bg-green {
+    color: white;
+    h1, .h1 {
+        color: var(--green-light)!important;
+    }
+    a{
+        color: rgb(255, 236, 128);
+    }
+    .card-body {
+        color: black;
+        h1,.h1 {
+            color: var(--primary) !important;
+        }
+    }
+}
+
+.bg-green-light {
+    color: black;
+    h1, .h1 {
+        color: var(--green-dark)!important;
+    }
+    a{
+        color: var(--green);
+    }
+    .card-body {
+        color: black;
+        h1,.h1 {
+            color: var(--primary) !important;
+        }
+    }
+}
+
 .green-alpha {
     background-color: rgba(27, 94, 32, .5);
 
