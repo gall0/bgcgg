@@ -46,28 +46,72 @@
 .bg-green,
 .bg-yellow,
 .bg-orange {
-    color:white;
+    color: white;
 }
-// ========
-// Primary
-// ========
-.primary-alpha {
-    background-color: rgba(0,58,81, .5);
 
-    &:hover {
-        background-color: rgba(0,58,81, .3);
+// ========
+// primary
+// ========
+.bg-primary {
+    color: white;
+    h1, .h1 {
+        color: white!important;
+    }
+    .card-body {
+        color: black;
+        h1,.h1 {
+            color: var(--primary) !important;
+        }
     }
 }
 
 
-// ========
-// Secondary
-// ========
-.secondary-alpha {
-    background-color: rgba(100,95,61, .5);
+.primary-alpha {
+    background-color: rgba(0, 58, 81, .5);
 
     &:hover {
-        background-color: rgba(100,95,61, .3);
+        background-color: rgba(0, 58, 81, .3);
+    }
+}
+
+// ========
+// primary-light
+// ========
+.bg-primary-light {
+    color: var(--primary-dark);
+    h1, .h1 {
+        color: var(--primary-dark)!important;
+    }
+    .card-body {
+        color: black;
+        h1,.h1 {
+            color: var(--primary) !important;
+        }
+    }
+}
+
+// ========
+// secondary
+// ========
+
+.bg-secondary {
+    color: black;
+    h1, .h1 {
+        color: black!important;
+    }
+    .card-body {
+        color: black;
+        h1,.h1 {
+            color: var(--primary) !important;
+        }
+    }
+}
+
+.secondary-alpha {
+    background-color: rgba(100, 95, 61, .5);
+
+    &:hover {
+        background-color: rgba(100, 95, 61, .3);
     }
 }
 
@@ -75,10 +119,10 @@
 // Red
 // ========
 .red-alpha {
-    background-color: rgba(183,28,28, .5);
+    background-color: rgba(183, 28, 28, .5);
 
     &:hover {
-        background-color: rgba(183,28,28, .3);
+        background-color: rgba(183, 28, 28, .3);
     }
 }
 
@@ -87,10 +131,10 @@
 // Pink
 // ========
 .pink-alpha {
-    background-color: rgba(53,5,31, .5);
+    background-color: rgba(53, 5, 31, .5);
 
     &:hover {
-        background-color: rgba(53,5,31, .3);
+        background-color: rgba(53, 5, 31, .3);
     }
 }
 
@@ -99,10 +143,10 @@
 // Purple
 // ========
 .purple-alpha {
-    background-color: rgba(29,8,55, .5);
+    background-color: rgba(29, 8, 55, .5);
 
     &:hover {
-        background-color: rgba(29,8,55, .3);
+        background-color: rgba(29, 8, 55, .3);
     }
 }
 
@@ -110,19 +154,50 @@
 // ========
 // Blue
 // ========
-.bg-blue, bg-blue-light {
-
-    a {
-        color: blue;
+.bg-blue {
+    color: white;
+    h1, .h1 {
+        color: var(--blue-light)!important;
     }
-
+    a{
+        color: rgb(255, 236, 128);
+    }
+    .card-body {
+        color: black;
+        h1,.h1 {
+            color: var(--primary) !important;
+        }
+    }
 }
 
+// ========
+// Blue-light
+// ========
+.bg-blue-light {
+    color: black;
+    h1, .h1 {
+        color: var(--primary-dark)!important;
+    }
+    a{
+        color: #20688a;
+    }
+    .card-body {
+        color: black;
+        h1,.h1 {
+            color: var(--primary) !important;
+        }
+    }
+}
+
+
+
+
+
 .blue-alpha {
-    background-color: rgba(13,71,161, .5);
+    background-color: rgba(13, 71, 161, .5);
 
     &:hover {
-        background-color: rgba(13,71,161, .3);
+        background-color: rgba(13, 71, 161, .3);
     }
 }
 
@@ -131,10 +206,10 @@
 // Green
 // ========
 .green-alpha {
-    background-color: rgba(27,94,32, .5);
+    background-color: rgba(27, 94, 32, .5);
 
     &:hover {
-        background-color: rgba(27,94,32, .3);
+        background-color: rgba(27, 94, 32, .3);
     }
 }
 
@@ -143,10 +218,10 @@
 // Yellow
 // ========
 .yellow-alpha {
-    background-color: rgba(96,50,9, .5);
+    background-color: rgba(96, 50, 9, .5);
 
     &:hover {
-        background-color: rgba(96,50,9, .3);
+        background-color: rgba(96, 50, 9, .3);
     }
 }
 
@@ -155,17 +230,9 @@
 // Orange
 // ========
 .orange-alpha {
-    background-color: rgba(230,81,0, .5);
+    background-color: rgba(230, 81, 0, .5);
 
     &:hover {
-        background-color: rgba(230,81,0, .3);
+        background-color: rgba(230, 81, 0, .3);
     }
 }
-
-
-
-
-
-
-
-
