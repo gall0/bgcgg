@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_background_color
     - paragraphs.paragraphs_type.paragraph
     - taxonomy.vocabulary.bac
+  content:
+    - 'taxonomy_term:bac:d4552004-2316-4818-86f6-5ad48f4267ec'
 id: paragraph.paragraph.field_background_color
 field_name: field_background_color
 entity_type: paragraph
@@ -14,7 +16,9 @@ label: 'Background Color'
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    target_uuid: d4552004-2316-4818-86f6-5ad48f4267ec
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'
