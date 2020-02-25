@@ -125,6 +125,7 @@ settings:
   purge_days: null
   results_disabled: false
   results_disabled_ignore: false
+  token_view: false
   token_update: false
 access:
   create:
@@ -174,4 +175,5 @@ access:
     users: {  }
     permissions: {  }
 handlers: {  }
+variants: {  }
 uuid: f9e9c01f-602b-47c1-a149-0ec7ff013bf2

@@ -12,5 +12,5 @@ items:
   node_to_pdf_redirect_:
     id: node_to_pdf_redirect_
     type: condition
-    weight: -9
+    weight: -99
 tags: {  }

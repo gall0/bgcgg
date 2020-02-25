@@ -1,0 +1,14 @@
+uuid: a25ca446-6a1f-411e-859b-b7fa6e9fb108
+langcode: en
+status: true
+dependencies: {  }
+id: condition_debugging
+label: 'condition debugging'
+description: 'condition debugging'
+type: show_message
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  message_type: error
+  message: 'Condition is being evaluated:'

@@ -10,5 +10,5 @@ target_entity_type: null
 target_bundle: null
 tags: {  }
 settings:
-  message_type: status
+  message_type: error
   message: 'condition is false'

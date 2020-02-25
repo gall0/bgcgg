@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.club.field_sc
     - image.style.crop_sm
     - node.type.club
+    - workflows.workflow.status
   module:
     - content_moderation
     - file
@@ -143,6 +144,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     region: content
     third_party_settings: {  }
 hidden: {  }
