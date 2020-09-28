@@ -1,0 +1,15 @@
+uuid: 9acb1841-9620-425f-bc89-6f35d14e71fe
+langcode: en
+status: '1'
+dependencies: {  }
+id: state_of_the_club
+label: 'State of the Club'
+message: 'No'
+path: /state-of-the-club
+redirect_path: 'https://bgcgg.z2systems.com/event.jsp?event=3'
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated

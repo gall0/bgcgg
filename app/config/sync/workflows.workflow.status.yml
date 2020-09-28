@@ -34,6 +34,12 @@ type_settings:
       from:
         - draft
         - published
+    internal_to_draft:
+      label: 'Internal to Draft'
+      from:
+        - internal
+      to: draft
+      weight: 3
     publish:
       label: Publish
       to: published
