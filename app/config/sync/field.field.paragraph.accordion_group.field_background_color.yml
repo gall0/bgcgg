@@ -1,0 +1,29 @@
+uuid: 26ba4ce8-1cda-4b65-bb0f-da74a312537b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_color
+    - paragraphs.paragraphs_type.accordion_group
+    - taxonomy.vocabulary.bac
+id: paragraph.accordion_group.field_background_color
+field_name: field_background_color
+entity_type: paragraph
+bundle: accordion_group
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bac: bac
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: 2bc9654a-3ffe-4489-9039-4a5db6db62d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_container
+    - paragraphs.paragraphs_type.accordion_group
+    - taxonomy.vocabulary.container_options
+id: paragraph.accordion_group.field_container
+field_name: field_container
+entity_type: paragraph
+bundle: accordion_group
+label: Container
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      container_options: container_options
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

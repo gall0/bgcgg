@@ -1,0 +1,86 @@
+uuid: 522f771e-a714-44cb-8586-9b7e6806a879
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_page_elements
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.faqs
+    - paragraphs.paragraphs_type.image_buttons
+    - paragraphs.paragraphs_type.image_grid
+    - paragraphs.paragraphs_type.link_list
+    - paragraphs.paragraphs_type.paragraph
+    - paragraphs.paragraphs_type.paragraph_featured
+    - paragraphs.paragraphs_type.photo_collection
+    - paragraphs.paragraphs_type.slider
+    - paragraphs.paragraphs_type.youtube_video
+  module:
+    - entity_reference_revisions
+id: paragraph.accordion.field_page_elements
+field_name: field_page_elements
+entity_type: paragraph
+bundle: accordion
+label: 'Page Elements'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      faqs: faqs
+      image_buttons: image_buttons
+      image_grid: image_grid
+      link_list: link_list
+      paragraph: paragraph
+      paragraph_featured: paragraph_featured
+      photo_collection: photo_collection
+      slider: slider
+      youtube_video: youtube_video
+    target_bundles_drag_drop:
+      accordion:
+        weight: 15
+        enabled: false
+      block_reference:
+        weight: 16
+        enabled: false
+      faqs:
+        enabled: true
+        weight: 17
+      image_button:
+        weight: 18
+        enabled: false
+      image_buttons:
+        enabled: true
+        weight: 19
+      image_grid:
+        enabled: true
+        weight: 20
+      image_grid_item:
+        weight: 21
+        enabled: false
+      link_list:
+        enabled: true
+        weight: 22
+      link_list_item:
+        weight: 23
+        enabled: false
+      paragraph:
+        enabled: true
+        weight: 24
+      paragraph_featured:
+        enabled: true
+        weight: 25
+      photo_collection:
+        enabled: true
+        weight: 26
+      slider:
+        enabled: true
+        weight: 27
+      youtube_video:
+        enabled: true
+        weight: 28
+field_type: entity_reference_revisions

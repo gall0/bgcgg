@@ -1,0 +1,45 @@
+uuid: 910a040f-a0dc-4340-b8c6-7c94b2bfccaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.accordion.field_heading
+    - field.field.paragraph.accordion.field_page_elements
+    - paragraphs.paragraphs_type.accordion
+  module:
+    - paragraphs
+id: paragraph.accordion.default
+targetEntityType: paragraph
+bundle: accordion
+mode: default
+content:
+  field_heading:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_page_elements:
+    type: paragraphs
+    weight: 1
+    settings:
+      title: 'Page Element'
+      title_plural: 'Page Elements'
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: add_above
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

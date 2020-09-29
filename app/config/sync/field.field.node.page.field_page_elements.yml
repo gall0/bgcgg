@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_page_elements
     - node.type.page
+    - paragraphs.paragraphs_type.accordion
     - paragraphs.paragraphs_type.image_button
     - paragraphs.paragraphs_type.image_grid_item
   module:
@@ -25,6 +26,7 @@ settings:
     negate: 1
     target_bundles:
       image_button: image_button
+      accordion: accordion
       image_grid_item: image_grid_item
     target_bundles_drag_drop:
       image_button:
@@ -53,6 +55,12 @@ settings:
         enabled: false
       faqs:
         weight: 15
+        enabled: false
+      accordion:
+        enabled: true
+        weight: 16
+      accordion_group:
+        weight: 17
         enabled: false
       image_grid:
         weight: 18
