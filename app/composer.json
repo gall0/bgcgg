@@ -114,9 +114,6 @@
         },
 
         "patches": {
-            "drupal/colorbox": {
-                "Colorbox plugin fix for Drush v9": "https://www.drupal.org/files/issues/2018-11-01/colorbox-plugin-not-defined-2954756.patch"     
-            }
         },        
         "drupal-scaffold": {
             "initial": {
